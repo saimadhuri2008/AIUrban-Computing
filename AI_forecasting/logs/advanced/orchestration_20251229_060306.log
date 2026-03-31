@@ -1,0 +1,52 @@
+2025-12-29 11:33:06,601 | INFO | 
+==== Processing variable: population  strategy: prior_based ====
+2025-12-29 11:33:06,602 | INFO | [PRIOR] Using prior-based forecasting for population
+2025-12-29 11:33:07,312 | INFO | [SAVE] population forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251229_060306\population_forecast_2026_2035.csv
+2025-12-29 11:33:07,355 | INFO | [SAVE] population forecasts (advanced): AI_forecasting\results\advanced\population_forecast_2026_2035.csv
+2025-12-29 11:33:07,922 | INFO | 
+==== Processing variable: rainfall  strategy: prior_based ====
+2025-12-29 11:33:07,925 | INFO | [PRIOR] Using prior-based forecasting for rainfall
+2025-12-29 11:33:08,906 | INFO | [SAVE] rainfall forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251229_060306\rainfall_forecast_2026_2035.csv
+2025-12-29 11:33:08,946 | INFO | [SAVE] rainfall forecasts (advanced): AI_forecasting\results\advanced\rainfall_forecast_2026_2035.csv
+2025-12-29 11:33:09,535 | INFO | 
+==== Processing variable: electricity_demand  strategy: ensemble ====
+2025-12-29 11:33:09,536 | INFO | [DATA PREP] Building datasets for electricity_demand
+2025-12-29 11:33:09,589 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-29 11:33:11,832 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187
+2025-12-29 11:33:13,301 | INFO | [SKIP] N-BEATS checkpoint exists for electricity_demand at AI_forecasting\artifacts\advanced\electricity_demand\nbeats_electricity_demand.ckpt
+2025-12-29 11:33:13,302 | INFO | [SKIP] TFT checkpoint exists for electricity_demand at AI_forecasting\artifacts\advanced\electricity_demand\tft_electricity_demand.ckpt
+2025-12-29 11:33:13,302 | WARNING | TFT interpretation skipped: slice indices must be integers or None or have an __index__ method
+2025-12-29 11:33:13,355 | INFO | [PREDICT] Will produce forecasts for 187 wards for target electricity_demand
+2025-12-29 11:33:42,335 | INFO | [SAVE] Saved electricity_demand forecasts to AI_forecasting\results\advanced\electricity_demand_forecast_2026_2035.csv
+2025-12-29 11:33:42,806 | INFO | 
+==== Processing variable: water_demand  strategy: ensemble ====
+2025-12-29 11:33:42,806 | INFO | [DATA PREP] Building datasets for water_demand
+2025-12-29 11:33:42,849 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-29 11:33:45,044 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187
+2025-12-29 11:33:45,815 | INFO | [SKIP] N-BEATS checkpoint exists for water_demand at AI_forecasting\artifacts\advanced\water_demand\nbeats_water_demand.ckpt
+2025-12-29 11:33:45,815 | INFO | [SKIP] TFT checkpoint exists for water_demand at AI_forecasting\artifacts\advanced\water_demand\tft_water_demand.ckpt
+2025-12-29 11:33:45,816 | WARNING | TFT interpretation skipped: slice indices must be integers or None or have an __index__ method
+2025-12-29 11:33:45,867 | INFO | [PREDICT] Will produce forecasts for 187 wards for target water_demand
+2025-12-29 11:34:15,897 | INFO | [SAVE] Saved water_demand forecasts to AI_forecasting\results\advanced\water_demand_forecast_2026_2035.csv
+2025-12-29 11:34:16,524 | INFO | 
+==== Processing variable: congestion_index  strategy: ensemble ====
+2025-12-29 11:34:16,525 | INFO | [DATA PREP] Building datasets for congestion_index
+2025-12-29 11:34:16,576 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-29 11:34:18,755 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187
+2025-12-29 11:34:19,446 | INFO | [SKIP] N-BEATS checkpoint exists for congestion_index at AI_forecasting\artifacts\advanced\congestion_index\nbeats_congestion_index.ckpt
+2025-12-29 11:34:19,446 | INFO | [SKIP] TFT checkpoint exists for congestion_index at AI_forecasting\artifacts\advanced\congestion_index\tft_congestion_index.ckpt
+2025-12-29 11:34:19,447 | WARNING | TFT interpretation skipped: slice indices must be integers or None or have an __index__ method
+2025-12-29 11:34:19,496 | INFO | [PREDICT] Will produce forecasts for 187 wards for target congestion_index
+2025-12-29 11:34:52,838 | INFO | [SAVE] Saved congestion_index forecasts to AI_forecasting\results\advanced\congestion_index_forecast_2026_2035.csv
+2025-12-29 11:34:53,563 | INFO | 
+==== Processing variable: pm25  strategy: ensemble ====
+2025-12-29 11:34:53,564 | INFO | [DATA PREP] Building datasets for pm25
+2025-12-29 11:34:53,643 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-29 11:34:56,678 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187
+2025-12-29 11:34:57,489 | INFO | [SKIP] N-BEATS checkpoint exists for pm25 at AI_forecasting\artifacts\advanced\pm25\nbeats_pm25.ckpt
+2025-12-29 11:34:57,490 | INFO | [SKIP] TFT checkpoint exists for pm25 at AI_forecasting\artifacts\advanced\pm25\tft_pm25.ckpt
+2025-12-29 11:34:57,491 | WARNING | TFT interpretation skipped: slice indices must be integers or None or have an __index__ method
+2025-12-29 11:34:57,550 | INFO | [PREDICT] Will produce forecasts for 187 wards for target pm25
+2025-12-29 11:35:32,565 | INFO | [SAVE] Saved pm25 forecasts to AI_forecasting\results\advanced\pm25_forecast_2026_2035.csv
+2025-12-29 11:35:33,525 | INFO | Saved combined forecast CSV to: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\combined_forecast_2026_2035.csv
+2025-12-29 11:35:33,525 | INFO | Orchestration complete.

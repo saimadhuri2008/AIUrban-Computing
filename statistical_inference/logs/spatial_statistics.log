@@ -1,0 +1,21 @@
+2025-12-22 06:21:09,543 | INFO | Spatial statistics module initialized
+2025-12-22 06:23:02,419 | INFO | Spatial statistics module initialized
+2025-12-22 06:23:02,420 | INFO | Starting spatial statistics pipeline
+2025-12-22 06:23:03,234 | INFO | Computed descriptive statistics and correlation diagnostics
+2025-12-22 06:23:04,205 | INFO | KMeans clustering completed for k=[3, 4, 5]
+2025-12-22 06:23:04,213 | INFO | DBSCAN clustering completed
+2025-12-22 06:23:04,218 | INFO | Hierarchical clustering completed
+2025-12-22 06:24:15,725 | INFO | Computed Moran, LISA, Gi* for variable: built_area_m2_sum
+2025-12-22 06:24:16,384 | INFO | Created 198 records
+2025-12-22 06:24:19,052 | INFO | Created 198 records
+2025-12-22 06:24:19,053 | INFO | Spatial statistics pipeline completed successfully
+2025-12-22 06:25:50,194 | INFO | Spatial statistics module initialized
+2025-12-22 06:25:50,196 | INFO | Starting spatial statistics pipeline
+2025-12-22 06:25:50,597 | INFO | Computed descriptive statistics and correlation diagnostics
+2025-12-22 06:25:51,256 | INFO | KMeans clustering completed for k=[3, 4, 5]
+2025-12-22 06:25:51,258 | INFO | DBSCAN clustering completed
+2025-12-22 06:25:51,260 | INFO | Hierarchical clustering completed
+2025-12-22 06:26:56,698 | INFO | Computed Moran, LISA, Gi* for variable: built_area_m2_sum
+2025-12-22 06:26:57,242 | INFO | Created 198 records
+2025-12-22 06:26:59,179 | INFO | Created 198 records
+2025-12-22 06:26:59,180 | INFO | Spatial statistics pipeline completed successfully

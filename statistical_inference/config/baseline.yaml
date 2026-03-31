@@ -1,0 +1,26 @@
+project: statistical_inference
+city: bengaluru
+stage: baseline_statistical_analysis
+
+random_seed: 42
+crs: EPSG:4326
+
+paths:
+  input_wards: statistical_inference/data/input/wards_master.parquet
+  derived_wards: statistical_inference/data/derived/wards_enriched.geojson
+
+features:
+  core:
+    - population_est
+    - income_index_mean
+    - it_job_density_mean
+    - congestion_index_mean
+    - aqi_mean
+    - built_area_m2_sum
+
+causal:
+  psm_treatment_quantile: 0.7
+  did_start_year: 2021
+
+logging:
+  level: INFO

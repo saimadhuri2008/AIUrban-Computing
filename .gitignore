@@ -1,0 +1,27 @@
+# Environments
+.venv/
+env/
+myenv/
+.vscode/
+
+# Data (VERY IMPORTANT)
+data/
+
+# Logs / training
+lightning_logs/
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML artifacts
+*.ckpt
+*.joblib
+*.npy
+*.npz
+
+# Large formats
+*.csv
+*.geojson
+*.osm

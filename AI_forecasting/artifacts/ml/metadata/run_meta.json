@@ -1,0 +1,17 @@
+{
+  "run_time": "2025-12-28T11:30:05.652486",
+  "train_end": "2025-12",
+  "horizon": 60,
+  "targets": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "models": [
+    "rf",
+    "lgb"
+  ],
+  "n_jobs": 1,
+  "input_path": "AI_forecasting/data/input/timeseries/all_wards_monthly.parquet"
+}

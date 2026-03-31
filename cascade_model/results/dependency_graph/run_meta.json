@@ -1,0 +1,15 @@
+{
+    "analysis_stage": "cascading_dependency_modeling",
+    "city": "Bengaluru",
+    "dependency_type": "Directed, weighted, domain-informed",
+    "dependency_rules_version": "v1.0",
+    "weights_interpretation": "Relative influence strength",
+    "calibration": "expert/domain-informed",
+    "graph_nodes": 6,
+    "graph_edges": 12,
+    "visualization": "Spring layout (topological, not spatial)",
+    "diagnostics": {
+        "centrality_metric": "betweenness",
+        "centrality_weighted": true
+    }
+}

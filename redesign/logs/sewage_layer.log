@@ -1,0 +1,4 @@
+2026-01-11 20:14:31,216 | INFO | Sewage (STP) infrastructure layer generation started
+2026-01-11 20:14:31,289 | INFO | Created 4 records
+2026-01-11 20:14:31,289 | INFO | Saved sewage network GeoJSON: redesign\artifacts\sewage_network.geojson
+2026-01-11 20:14:31,305 | INFO |  Sewage infrastructure layer generation completed successfully

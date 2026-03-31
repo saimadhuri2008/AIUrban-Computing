@@ -1,0 +1,74 @@
+{
+  "n_sims": 200,
+  "n_wards": 187,
+  "n_timesteps": 120,
+  "params_priors": {
+    "alpha": {
+      "dist": "uniform",
+      "range": [
+        0.02,
+        0.12
+      ]
+    },
+    "compound": {
+      "dist": "uniform",
+      "range": [
+        0.0,
+        0.06
+      ]
+    },
+    "cap": {
+      "dist": "uniform",
+      "range": [
+        1.5,
+        2.5
+      ]
+    },
+    "trend_rate": {
+      "dist": "uniform",
+      "range": [
+        0.25,
+        0.9
+      ]
+    },
+    "season_amp": {
+      "dist": "uniform",
+      "range": [
+        0.02,
+        0.1
+      ]
+    },
+    "shock_prob0": {
+      "dist": "uniform",
+      "range": [
+        0.005,
+        0.03
+      ]
+    },
+    "shock_growth": {
+      "dist": "uniform",
+      "range": [
+        0.01,
+        0.06
+      ]
+    },
+    "shock_scale": {
+      "dist": "uniform",
+      "range": [
+        0.08,
+        0.32
+      ]
+    }
+  },
+  "perturb_P_scale": 0.0,
+  "fail_level": 1.0,
+  "sev_cols": [
+    "sev_population",
+    "sev_rainfall",
+    "sev_electricity_demand",
+    "sev_water_demand",
+    "sev_congestion_index",
+    "sev_pm25"
+  ],
+  "created": "2026-01-09T10:53:50.947171Z"
+}

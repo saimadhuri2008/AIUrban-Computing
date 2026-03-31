@@ -1,0 +1,10 @@
+{
+  "stage":"Time-series data construction for forecasting",
+  "seed":42,
+  "start_year":2014,
+  "end_year":2025,
+  "num_wards":198,
+  "input_wards_file":"AI_forecasting\\data\\input\\wards_enriched.geojson",
+  "canonical_timeseries_dir":"AI_forecasting\\data\\input\\timeseries",
+  "ward_timeseries_dir":"AI_forecasting\\data\\processed\\timeseries\\by_ward"
+}

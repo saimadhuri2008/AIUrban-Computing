@@ -1,0 +1,28 @@
+{
+  "node_thresholds": {
+    "population": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.1
+    },
+    "rainfall": {
+      "mode": "absolute",
+      "threshold": 150
+    },
+    "electricity_demand": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.12
+    },
+    "water_demand": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.18
+    },
+    "congestion_index": {
+      "mode": "absolute",
+      "threshold": 0.5
+    },
+    "pm25": {
+      "mode": "absolute",
+      "threshold": 80
+    }
+  }
+}

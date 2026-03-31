@@ -1,0 +1,12 @@
+{
+  "target": "rainfall",
+  "strategy": "prior_based",
+  "description": "Domain-driven prior (no ML training)",
+  "generated_at": "2025-12-29T06:03:09.425536",
+  "seed": 42,
+  "method": "climatological_monsoon_prior",
+  "bounds": [
+    0.0,
+    400.0
+  ]
+}

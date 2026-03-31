@@ -1,0 +1,4 @@
+2026-01-11 18:10:29,379 | INFO | Sector-based consumption map generation started
+2026-01-11 18:10:30,019 | INFO | Created 198 records
+2026-01-11 18:10:30,021 | INFO | Saved consumption map: redesign\artifacts\consumption_map.geojson
+2026-01-11 18:10:30,040 | INFO | Consumption map generation completed successfully

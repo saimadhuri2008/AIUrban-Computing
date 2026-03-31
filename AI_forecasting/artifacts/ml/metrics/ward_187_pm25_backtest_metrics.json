@@ -1,0 +1,17 @@
+{
+  "ward_id": "ward_187",
+  "target": "pm25",
+  "model": "lgb",
+  "train_rows": 144,
+  "forecast_horizon_months": 60,
+  "backtest": {
+    "train_end": "2024-12",
+    "test_period": "2025-01 to 2025-12",
+    "metrics": {
+      "mae": 0.0005266117060370353,
+      "rmse": 0.000577205173714407,
+      "mape": 0.0009565493272380963
+    }
+  },
+  "timestamp": "2025-12-28T11:22:59.119179"
+}

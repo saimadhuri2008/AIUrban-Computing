@@ -1,0 +1,4 @@
+2026-01-11 20:16:50,817 | INFO | Water treatment infrastructure layer generation started
+2026-01-11 20:16:50,893 | INFO | Created 5 records
+2026-01-11 20:16:50,894 | INFO | Saved water treatment GeoJSON: redesign\artifacts\water_treatment.geojson
+2026-01-11 20:16:50,909 | INFO | Water treatment infrastructure layer generation completed successfully

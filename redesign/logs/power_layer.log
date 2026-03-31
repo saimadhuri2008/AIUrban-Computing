@@ -1,0 +1,5 @@
+2026-01-11 18:45:21,004 | INFO | Power infrastructure layer generation started
+2026-01-11 18:45:21,009 | INFO | Created 6 records
+2026-01-11 18:45:21,011 | INFO | Saved power plants GeoJSON: redesign\artifacts\powerlayer\power_plants.geojson
+2026-01-11 18:45:21,014 | INFO | Created 5 records
+2026-01-11 18:45:21,014 | INFO | Saved power transmission lines GeoJSON: redesign\artifacts\powerlayer\power_lines.geojson

@@ -1,0 +1,11 @@
+2026-01-09 15:52:02,037 | INFO | Starting Dependency Graph Construction
+2026-01-09 15:52:02,037 | INFO | Saved dependency rules at cascade_model\artifacts\dependency_graph\dependency_rules.json
+2026-01-09 15:52:02,037 | INFO | Saved modeling assumptions at cascade_model\artifacts\dependency_graph\assumptions.json
+2026-01-09 15:52:02,038 | INFO | Constructed dependency graph with 6 nodes and 12 edges
+2026-01-09 15:52:02,038 | INFO | Saved dependency graph artifact at cascade_model\artifacts\dependency_graph\dependency_graph.joblib
+2026-01-09 15:52:02,038 | INFO | No isolated nodes detected in dependency graph
+2026-01-09 15:52:02,045 | INFO | Saved node centrality diagnostics
+2026-01-09 15:52:02,046 | INFO | Artifact fingerprints saved
+2026-01-09 15:52:02,337 | INFO | Saved dependency graph visualization at cascade_model\results\dependency_graph\dependency_graph.png
+2026-01-09 15:52:02,337 | INFO | Run metadata saved
+2026-01-09 15:52:02,337 | INFO | dependency graph construction completed successfully

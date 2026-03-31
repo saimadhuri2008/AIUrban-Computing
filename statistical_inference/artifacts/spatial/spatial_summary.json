@@ -1,0 +1,43 @@
+{
+  "global_moran": {
+    "population_est": {
+      "I": 0.36660012776031614,
+      "p_norm": 6.864383730550079e-18,
+      "z_norm": 8.617145578949543
+    },
+    "it_job_density_mean": {
+      "I": 0.4362955838042404,
+      "p_norm": 1.4107547525341135e-24,
+      "z_norm": 10.233003086064024
+    },
+    "congestion_index_mean": {
+      "I": 0.04101408610790652,
+      "p_norm": 0.2852585060283731,
+      "z_norm": 1.0685810170910333
+    },
+    "aqi_mean": {
+      "I": -0.0033985484001713036,
+      "p_norm": 0.9689747016900292,
+      "z_norm": 0.03889424905581197
+    },
+    "built_area_m2_sum": {
+      "I": 0.23174608590844742,
+      "p_norm": 4.005346855261602e-08,
+      "z_norm": 5.490615841433484
+    }
+  },
+  "lisa_files": [
+    "statistical_inference\\artifacts\\spatial\\lisa_population_est.csv",
+    "statistical_inference\\artifacts\\spatial\\lisa_it_job_density_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\lisa_congestion_index_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\lisa_aqi_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\lisa_built_area_m2_sum.csv"
+  ],
+  "gi_files": [
+    "statistical_inference\\artifacts\\spatial\\gi_population_est.csv",
+    "statistical_inference\\artifacts\\spatial\\gi_it_job_density_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\gi_congestion_index_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\gi_aqi_mean.csv",
+    "statistical_inference\\artifacts\\spatial\\gi_built_area_m2_sum.csv"
+  ]
+}

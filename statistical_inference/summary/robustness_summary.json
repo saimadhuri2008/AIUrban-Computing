@@ -1,0 +1,25 @@
+{
+  "ols": {
+    "params": {
+      "Intercept": 0.5367597669334977,
+      "population_est": 6.396007969013181e-09,
+      "built_area_m2_sum": -3.033637048242099e-09,
+      "income_index_mean": 0.0022647087249265674,
+      "it_job_density_mean": 2.556340218548759e-05,
+      "aqi_mean": -2.3677660449664844e-05
+    },
+    "pvalues": {
+      "Intercept": 3.110475997921358e-159,
+      "population_est": 0.13959540708623627,
+      "built_area_m2_sum": 0.051053643376997936,
+      "income_index_mean": 0.6055048713382011,
+      "it_job_density_mean": 0.24284440612855615,
+      "aqi_mean": 0.7577829024574897
+    },
+    "rsquared_adj": -0.0007049250979982435
+  },
+  "diagnostics": {
+    "cooks_threshold": 0.020202020202020204,
+    "n_obs": 198
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "lstm_global_forecasting_v1",
+  "timestamp": "2025-12-29_12-18",
+  "git_commit": "unknown",
+  "input_window": 36,
+  "train_horizon": 12,
+  "targets": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "hidden_size": 128,
+  "num_layers": 2,
+  "epochs": 40,
+  "learning_rate": 0.001,
+  "device": "cuda"
+}

@@ -1,0 +1,13 @@
+2026-01-16 22:49:01,248 | INFO | ====================================================================================================
+2026-01-16 22:49:01,248 | INFO | STARTING LSTM MODEL EVALUATION
+2026-01-16 22:49:01,248 | INFO | ====================================================================================================
+2026-01-16 22:49:01,248 | INFO | 
+[STEP 1] Loading data files...
+2026-01-16 22:49:01,250 | INFO | Loading predictions from: AI_forecasting\results\lstm\lstm_predictions_2026_2035.csv
+2026-01-16 22:49:01,282 | INFO | Loading actual data from: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2026-01-16 22:49:01,331 | INFO | 
+[STEP 2] Detecting target columns...
+2026-01-16 22:49:01,334 | INFO | 
+[STEP 3] Merging predictions with actual data...
+2026-01-16 22:49:01,337 | ERROR | No overlapping data between predictions and actuals!
+2026-01-16 22:49:01,337 | ERROR | Please check that your actual data contains values for 2026-2035

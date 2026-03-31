@@ -1,0 +1,10 @@
+{
+  "script": "consumption_map.py",
+  "timestamp_utc": "2026-01-11T12:40:30.024761",
+  "input_file": "wards_with_sector_fixed.geojson",
+  "output_file": "redesign\\artifacts\\consumption_map.geojson",
+  "output_sha256": "ebc99fbcf975c86b6d07a12c466117ceac989cb62f82eb62fbac517c70961334",
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "phase": "Phase 6"
+}

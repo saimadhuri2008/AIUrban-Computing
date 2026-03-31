@@ -1,0 +1,12 @@
+{
+  "methodology": "Optimized Marginal Benefit Analysis",
+  "total_projects": 350,
+  "road_upgrades": 250,
+  "metro_extensions": 100,
+  "total_investment_usd": 28931716656.695705,
+  "total_benefit_score": 53976075405.686554,
+  "average_bc_ratio": 1.8656368042784215,
+  "baseline_avg_travel_time_min": 24.688227156463302,
+  "estimated_improvement_pct": 89.83000323251055,
+  "optimization_method": "MILP with betweenness centrality"
+}

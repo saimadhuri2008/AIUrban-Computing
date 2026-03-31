@@ -1,0 +1,12 @@
+2026-01-11 17:19:22,602 | INFO | Reading KML: redesign\data\raw\bengaluru-5sectors.kml
+2026-01-11 17:19:22,844 | INFO | Created 5 records
+2026-01-11 17:19:22,844 | INFO | [SAVED] redesign\data\interim\bbmp_5sectors.geojson
+2026-01-11 17:19:22,845 | INFO | Total sectors: 5
+2026-01-11 17:58:33,541 | INFO | Reading KML: redesign\data\raw\bengaluru-5sectors.kml
+2026-01-11 17:58:33,676 | INFO | Created 5 records
+2026-01-11 17:58:33,676 | INFO | [SAVED] redesign\data\interim\bbmp_5sectors.geojson
+2026-01-11 17:58:33,676 | INFO | Total sectors: 5
+2026-01-11 17:59:13,977 | INFO | Reading KML: redesign\data\raw\bengaluru-5sectors.kml
+2026-01-11 17:59:14,116 | INFO | Created 5 records
+2026-01-11 17:59:14,116 | INFO | [SAVED] redesign\data\interim\bbmp_5sectors.geojson
+2026-01-11 17:59:14,116 | INFO | Total sectors: 5

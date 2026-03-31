@@ -1,0 +1,94 @@
+{
+  "actual_stats": {
+    "electricity_demand": {
+      "min": 208.75757114264266,
+      "max": 212497.1044452033,
+      "mean": 28673.33393035741,
+      "std": 25204.63377384793
+    },
+    "water_demand": {
+      "min": 224.17343554573338,
+      "max": 1919.6414958636933,
+      "mean": 619.4958929187825,
+      "std": 316.0411472500714
+    },
+    "congestion_index": {
+      "min": 0.3482044644622568,
+      "max": 0.6579607997556088,
+      "mean": 0.4639848277765003,
+      "std": 0.04720486140668901
+    },
+    "pm25": {
+      "min": 28.2984025713127,
+      "max": 125.38874745476599,
+      "mean": 68.60266533283534,
+      "std": 14.683761629323655
+    }
+  },
+  "scaler_stats": {
+    "electricity_demand": {
+      "mean": 28421.55508399103,
+      "std": 24977.935267482157
+    },
+    "water_demand": {
+      "mean": 614.127846872789,
+      "std": 312.9846833898894
+    },
+    "congestion_index": {
+      "mean": 0.45919439853325333,
+      "std": 0.04414370478399137
+    },
+    "pm25": {
+      "mean": 68.42644505308286,
+      "std": 14.891508925351937
+    },
+    "population": {
+      "mean": 45899.94453637349,
+      "std": 17386.443782839466
+    },
+    "rainfall": {
+      "mean": 104.5625,
+      "std": 85.44164023131032
+    },
+    "t_idx_norm": {
+      "mean": 0.458041958041958,
+      "std": 0.2664617082825654
+    },
+    "month": {
+      "mean": 6.5,
+      "std": 3.452052529534663
+    },
+    "month_sin": {
+      "mean": -4.1650032634816054e-17,
+      "std": 0.7071067811865476
+    },
+    "month_cos": {
+      "mean": -2.776007335920623e-17,
+      "std": 0.7071067811865476
+    },
+    "is_monsoon": {
+      "mean": 0.3333333333333333,
+      "std": 0.4714045207910318
+    }
+  },
+  "issues": [],
+  "numeric_cols": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25",
+    "population",
+    "rainfall",
+    "t_idx_norm",
+    "month",
+    "month_sin",
+    "month_cos",
+    "is_monsoon"
+  ],
+  "target_cols": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2025-12-09T12:44:11.165002Z",
+  "script": "build_masterdesign_enhanced_v3.py",
+  "inputs": {
+    "sector_map": "data/processed/wards/bbmp_5sectors_named.geojson",
+    "wards_landuse": "outputs/housing/housing_landuse_plan.geojson",
+    "utilities": "outputs/utilities_plan/utilities_redesign.geojson",
+    "metro_loops": "outputs/transport_plan/metro_loops.geojson",
+    "central_spine": "outputs/transport_plan/central_spine.geojson",
+    "sector_corridors": "outputs/transport_plan/sector_corridors.geojson",
+    "housing_opportunities": "outputs/housing/housing_opportunities.geojson",
+    "services": "outputs/services/services_placement.geojson"
+  },
+  "notes": "CRS harmonized to EPSG:4326, invalid geometries attempted repair via buffer(0), simplified for web."
+}

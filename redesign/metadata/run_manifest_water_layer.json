@@ -1,0 +1,9 @@
+{
+  "script": "build_water_layer.py",
+  "timestamp_utc": "2026-01-11T14:46:50.894628",
+  "input_file": "bbmp_5sectors_named.geojson",
+  "output_file": "redesign\\artifacts\\water_treatment.geojson",
+  "output_sha256": "7a6791441ca1d72e5c7535d4bc74e7e82598ead1d52335a28e8f4a743374923c",
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0"
+}

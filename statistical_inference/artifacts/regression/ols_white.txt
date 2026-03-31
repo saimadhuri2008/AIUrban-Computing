@@ -1,0 +1,31 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     congestion_index_mean   R-squared:                       0.025
+Model:                               OLS   Adj. R-squared:                 -0.001
+Method:                    Least Squares   F-statistic:                     1.411
+Date:                   Mon, 22 Dec 2025   Prob (F-statistic):              0.222
+Time:                           22:18:52   Log-Likelihood:                 1037.1
+No. Observations:                    198   AIC:                            -2062.
+Df Residuals:                        192   BIC:                            -2042.
+Df Model:                              5                                         
+Covariance Type:                     HC3                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.5368      0.005    111.012      0.000       0.527       0.546
+population_est       6.396e-09   2.76e-09      2.316      0.022    9.48e-10    1.18e-08
+built_area_m2_sum   -3.034e-09    1.6e-09     -1.891      0.060    -6.2e-09    1.31e-10
+income_index_mean       0.0023      0.003      0.889      0.375      -0.003       0.007
+it_job_density_mean  2.556e-05   1.67e-05      1.530      0.128   -7.39e-06    5.85e-05
+aqi_mean            -2.368e-05   6.43e-05     -0.368      0.713      -0.000       0.000
+==============================================================================
+Omnibus:                       86.485   Durbin-Watson:                   2.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3450.044
+Skew:                           0.845   Prob(JB):                         0.00
+Kurtosis:                      23.380   Cond. No.                     9.22e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 9.22e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

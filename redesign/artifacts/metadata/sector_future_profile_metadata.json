@@ -1,0 +1,19 @@
+{
+  "artifacts": [
+    "sector_future_profile.csv",
+    "sector_future_profile.json"
+  ],
+  "source_forecast_file": "cascade_model/results/failure_detection/detection_results.csv",
+  "source_sector_file": "redesign/data/processed/wards_with_sector_fixed.geojson",
+  "aggregation_year": 2035,
+  "metrics": [
+    "traffic_demand",
+    "water_demand",
+    "electricity_load",
+    "population",
+    "pm25",
+    "failure_probability"
+  ],
+  "method": "Ward-level aggregation followed by sector-level summation/averaging",
+  "description": "Sector-level future demand and risk profile derived from AI forecasts"
+}

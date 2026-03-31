@@ -1,0 +1,12 @@
+VIFs:
+{
+  "income_index_mean": 1.7597361988465385,
+  "it_job_density_mean": 1.5514084032107593,
+  "built_area_m2_sum": 2.6729558528270174,
+  "congestion_index_mean": 1.025318893645087,
+  "aqi_mean": 1.0110095655788573,
+  "population_est": 3.4149470166638336
+}
+
+Condition number (SVD on standardized X):
+3.6611144367538215

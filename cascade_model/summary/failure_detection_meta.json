@@ -1,0 +1,16 @@
+{
+  "analysis": "severity_based_failure_detection",
+  "thresholds_used": "cascade_model\\artifacts\\thresholds\\thresholds.json",
+  "states_used": "cascade_model\\data\\combined_forecast_2026_2035.csv",
+  "nodes": [
+    "population",
+    "rainfall",
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "n_rows": 22440,
+  "severity_scale": "0=healthy, 1=failure, 2=severe",
+  "timestamp": "20260109T103737Z"
+}

@@ -1,0 +1,11 @@
+{
+  "script": "build_power_layer.py",
+  "timestamp_utc": "2026-01-11T13:15:21.014960",
+  "input_file": "bbmp_5sectors_named.geojson",
+  "output_files": [
+    "redesign\\artifacts\\powerlayer\\power_plants.geojson",
+    "redesign\\artifacts\\powerlayer\\power_lines.geojson"
+  ],
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0"
+}

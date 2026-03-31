@@ -1,0 +1,186 @@
+2025-12-24 20:08:47,093 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-24 20:08:47,175 | INFO | Unique wards: 187
+2025-12-24 20:08:47,177 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-24 20:08:47,178 | INFO | Missing ratios (per target):
+2025-12-24 20:08:47,178 | INFO |   electricity_demand: 0.000
+2025-12-24 20:08:47,178 | INFO |   water_demand: 0.000
+2025-12-24 20:08:47,178 | INFO |   congestion_index: 0.000
+2025-12-24 20:08:47,179 | INFO |   pm25: 0.000
+2025-12-24 20:08:47,179 | INFO |   population: 0.000
+2025-12-24 20:08:47,179 | INFO |   rainfall: 0.000
+2025-12-24 20:08:47,253 | INFO | Missing after forward/backfill:
+2025-12-24 20:08:47,253 | INFO |   electricity_demand: 0.000
+2025-12-24 20:08:47,253 | INFO |   water_demand: 0.000
+2025-12-24 20:08:47,253 | INFO |   congestion_index: 0.000
+2025-12-24 20:08:47,253 | INFO |   pm25: 0.000
+2025-12-24 20:08:47,253 | INFO |   population: 0.000
+2025-12-24 20:08:47,253 | INFO |   rainfall: 0.000
+2025-12-24 20:08:49,700 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-24 20:08:49,731 | INFO | Saved scaler to AI_forecasting\artifacts\dl\metadata\scalers.pkl
+2025-12-24 21:43:29,420 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-24 21:43:29,510 | INFO | Unique wards: 187
+2025-12-24 21:43:29,510 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-24 21:43:29,512 | INFO | Missing ratios (per target):
+2025-12-24 21:43:29,513 | INFO |   electricity_demand: 0.000
+2025-12-24 21:43:29,513 | INFO |   water_demand: 0.000
+2025-12-24 21:43:29,513 | INFO |   congestion_index: 0.000
+2025-12-24 21:43:29,513 | INFO |   pm25: 0.000
+2025-12-24 21:43:29,515 | INFO |   population: 0.000
+2025-12-24 21:43:29,515 | INFO |   rainfall: 0.000
+2025-12-24 21:43:29,596 | INFO | Missing after forward/backfill:
+2025-12-24 21:43:29,596 | INFO |   electricity_demand: 0.000
+2025-12-24 21:43:29,597 | INFO |   water_demand: 0.000
+2025-12-24 21:43:29,597 | INFO |   congestion_index: 0.000
+2025-12-24 21:43:29,597 | INFO |   pm25: 0.000
+2025-12-24 21:43:29,597 | INFO |   population: 0.000
+2025-12-24 21:43:29,597 | INFO |   rainfall: 0.000
+2025-12-24 21:43:32,215 | INFO | Total time-varying cols: 70
+2025-12-24 21:43:32,215 | INFO | Static columns detected: []
+2025-12-24 21:43:32,216 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-24 21:43:32,248 | INFO | Saved scaler to AI_forecasting\artifacts\dl\metadata\scalers.pkl
+2025-12-24 21:43:32,248 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta.pkl
+2025-12-24 21:43:32,336 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-24 21:43:32,825 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-24 21:43:32,827 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json
+2025-12-27 15:53:09,553 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-27 15:53:09,694 | INFO | Unique wards: 187
+2025-12-27 15:53:09,695 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-27 15:53:09,696 | INFO | Missing ratios (per target):
+2025-12-27 15:53:09,697 | INFO |   electricity_demand: 0.000
+2025-12-27 15:53:09,697 | INFO |   water_demand: 0.000
+2025-12-27 15:53:09,697 | INFO |   congestion_index: 0.000
+2025-12-27 15:53:09,697 | INFO |   pm25: 0.000
+2025-12-27 15:53:09,697 | INFO |   population: 0.000
+2025-12-27 15:53:09,697 | INFO |   rainfall: 0.000
+2025-12-27 15:53:09,782 | INFO | Missing after forward/backfill:
+2025-12-27 15:53:09,782 | INFO |   electricity_demand: 0.000
+2025-12-27 15:53:09,783 | INFO |   water_demand: 0.000
+2025-12-27 15:53:09,783 | INFO |   congestion_index: 0.000
+2025-12-27 15:53:09,784 | INFO |   pm25: 0.000
+2025-12-27 15:53:09,784 | INFO |   population: 0.000
+2025-12-27 15:53:09,784 | INFO |   rainfall: 0.000
+2025-12-27 15:53:12,180 | INFO | Total time-varying cols: 70
+2025-12-27 15:53:12,180 | INFO | Static columns detected: []
+2025-12-27 15:53:12,180 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-27 15:53:12,208 | INFO | Saved scaler artifact to AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-27 15:53:12,209 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-27 15:53:12,294 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-27 15:53:12,848 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-27 15:53:12,853 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json
+2025-12-28 17:12:27,175 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-28 17:12:27,255 | INFO | Unique wards: 187
+2025-12-28 17:12:27,255 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 17:12:27,257 | INFO | Missing ratios (per target):
+2025-12-28 17:12:27,257 | INFO |   electricity_demand: 0.000
+2025-12-28 17:12:27,257 | INFO |   water_demand: 0.000
+2025-12-28 17:12:27,257 | INFO |   congestion_index: 0.000
+2025-12-28 17:12:27,257 | INFO |   pm25: 0.000
+2025-12-28 17:12:27,257 | INFO |   population: 0.000
+2025-12-28 17:12:27,257 | INFO |   rainfall: 0.000
+2025-12-28 17:12:27,333 | INFO | Missing after forward/backfill:
+2025-12-28 17:12:27,333 | INFO |   electricity_demand: 0.000
+2025-12-28 17:12:27,334 | INFO |   water_demand: 0.000
+2025-12-28 17:12:27,334 | INFO |   congestion_index: 0.000
+2025-12-28 17:12:27,334 | INFO |   pm25: 0.000
+2025-12-28 17:12:27,334 | INFO |   population: 0.000
+2025-12-28 17:12:27,334 | INFO |   rainfall: 0.000
+2025-12-28 17:12:29,791 | INFO | Total time-varying cols: 70
+2025-12-28 17:12:29,791 | INFO | Static columns detected: []
+2025-12-28 17:12:29,791 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-28 17:12:29,818 | INFO | Saved scaler artifact to AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-28 17:12:29,820 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-28 17:12:29,903 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-28 17:12:30,498 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-28 17:12:30,500 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json
+2025-12-28 17:40:20,531 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-28 17:40:20,610 | INFO | Unique wards: 187
+2025-12-28 17:40:20,610 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 17:40:20,611 | INFO | Missing ratios (per target):
+2025-12-28 17:40:20,611 | INFO |   electricity_demand: 0.000
+2025-12-28 17:40:20,611 | INFO |   water_demand: 0.000
+2025-12-28 17:40:20,611 | INFO |   congestion_index: 0.000
+2025-12-28 17:40:20,612 | INFO |   pm25: 0.000
+2025-12-28 17:40:20,612 | INFO |   population: 0.000
+2025-12-28 17:40:20,612 | INFO |   rainfall: 0.000
+2025-12-28 17:40:20,702 | INFO | Missing after forward/backfill:
+2025-12-28 17:40:20,702 | INFO |   electricity_demand: 0.000
+2025-12-28 17:40:20,702 | INFO |   water_demand: 0.000
+2025-12-28 17:40:20,703 | INFO |   congestion_index: 0.000
+2025-12-28 17:40:20,703 | INFO |   pm25: 0.000
+2025-12-28 17:40:20,703 | INFO |   population: 0.000
+2025-12-28 17:40:20,704 | INFO |   rainfall: 0.000
+2025-12-28 17:40:23,152 | INFO | Total time-varying cols: 71
+2025-12-28 17:40:23,154 | INFO | Static columns detected: []
+2025-12-28 17:40:23,154 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-28 17:40:23,182 | INFO | Saved scaler artifact to AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-28 17:40:23,183 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-28 17:40:23,261 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-28 17:40:23,706 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-28 17:40:23,707 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json
+2025-12-28 19:11:25,856 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-28 19:11:25,933 | INFO | Unique wards: 187
+2025-12-28 19:11:25,934 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:11:25,935 | INFO | Missing ratios (per target):
+2025-12-28 19:11:25,936 | INFO |   electricity_demand: 0.000
+2025-12-28 19:11:25,936 | INFO |   water_demand: 0.000
+2025-12-28 19:11:25,936 | INFO |   congestion_index: 0.000
+2025-12-28 19:11:25,936 | INFO |   pm25: 0.000
+2025-12-28 19:11:25,937 | INFO |   population: 0.000
+2025-12-28 19:11:25,937 | INFO |   rainfall: 0.000
+2025-12-28 19:11:26,031 | INFO | Missing after forward/backfill:
+2025-12-28 19:11:26,031 | INFO |   electricity_demand: 0.000
+2025-12-28 19:11:26,032 | INFO |   water_demand: 0.000
+2025-12-28 19:11:26,032 | INFO |   congestion_index: 0.000
+2025-12-28 19:11:26,032 | INFO |   pm25: 0.000
+2025-12-28 19:11:26,032 | INFO |   population: 0.000
+2025-12-28 19:11:26,032 | INFO |   rainfall: 0.000
+2025-12-28 19:13:30,925 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-28 19:13:31,005 | INFO | Unique wards: 187
+2025-12-28 19:13:31,006 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:13:31,008 | INFO | Missing ratios (per target):
+2025-12-28 19:13:31,008 | INFO |   electricity_demand: 0.000
+2025-12-28 19:13:31,008 | INFO |   water_demand: 0.000
+2025-12-28 19:13:31,008 | INFO |   congestion_index: 0.000
+2025-12-28 19:13:31,008 | INFO |   pm25: 0.000
+2025-12-28 19:13:31,009 | INFO |   population: 0.000
+2025-12-28 19:13:31,009 | INFO |   rainfall: 0.000
+2025-12-28 19:13:31,102 | INFO | Missing after forward/backfill:
+2025-12-28 19:13:31,103 | INFO |   electricity_demand: 0.000
+2025-12-28 19:13:31,103 | INFO |   water_demand: 0.000
+2025-12-28 19:13:31,103 | INFO |   congestion_index: 0.000
+2025-12-28 19:13:31,103 | INFO |   pm25: 0.000
+2025-12-28 19:13:31,103 | INFO |   population: 0.000
+2025-12-28 19:13:31,103 | INFO |   rainfall: 0.000
+2025-12-28 19:13:31,106 | INFO | Total time-varying cols: 16
+2025-12-28 19:13:31,106 | INFO | Static columns detected: []
+2025-12-28 19:13:31,106 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-28 19:13:31,115 | INFO | Saved scaler artifact to AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-28 19:13:31,116 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-28 19:13:31,137 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 19:13:31,609 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-28 19:13:31,610 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json
+2025-12-28 19:35:44,559 | INFO | Loading historical data from AI_forecasting\data\input\historical_2014_2025_all_wards.parquet
+2025-12-28 19:35:44,638 | INFO | Unique wards: 187
+2025-12-28 19:35:44,639 | INFO | Date range: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:35:44,641 | INFO | Missing ratios (per target):
+2025-12-28 19:35:44,641 | INFO |   electricity_demand: 0.000
+2025-12-28 19:35:44,641 | INFO |   water_demand: 0.000
+2025-12-28 19:35:44,642 | INFO |   congestion_index: 0.000
+2025-12-28 19:35:44,642 | INFO |   pm25: 0.000
+2025-12-28 19:35:44,643 | INFO |   population: 0.000
+2025-12-28 19:35:44,643 | INFO |   rainfall: 0.000
+2025-12-28 19:35:44,748 | INFO | Missing after forward/backfill:
+2025-12-28 19:35:44,748 | INFO |   electricity_demand: 0.000
+2025-12-28 19:35:44,748 | INFO |   water_demand: 0.000
+2025-12-28 19:35:44,749 | INFO |   congestion_index: 0.000
+2025-12-28 19:35:44,749 | INFO |   pm25: 0.000
+2025-12-28 19:35:44,749 | INFO |   population: 0.000
+2025-12-28 19:35:44,749 | INFO |   rainfall: 0.000
+2025-12-28 19:35:44,752 | INFO | Total time-varying cols: 11
+2025-12-28 19:35:44,752 | INFO | Static columns detected: []
+2025-12-28 19:35:44,752 | INFO | Fitting StandardScaler on tv_cols ...
+2025-12-28 19:35:44,759 | INFO | Saved scaler artifact to AI_forecasting\artifacts\dl\metadata\scalers_lstm.joblib
+2025-12-28 19:35:44,761 | INFO | Saved meta to AI_forecasting\artifacts\dl\metadata\meta_lstm.json
+2025-12-28 19:35:44,781 | INFO | Saved processed combined to AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 19:35:45,302 | INFO | Saved sample diagnostic plots to AI_forecasting\reports\dl\preprocessing
+2025-12-28 19:35:45,303 | INFO | Prep summary written to AI_forecasting\reports\dl\summary\prep_summary.json

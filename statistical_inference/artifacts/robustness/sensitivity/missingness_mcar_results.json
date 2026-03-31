@@ -1,0 +1,242 @@
+[
+  {
+    "cc_coef": "{\"Intercept\":0.5409507011,\"population_est\":0.0000000038,\"built_area_m2_sum\":-0.0000000017,\"income_index_mean\":0.003039412,\"it_job_density_mean\":0.0000147513,\"aqi_mean\":-0.0000727831}",
+    "imp_coef": "{\"Intercept\":0.5358134618,\"population_est\":0.0000000047,\"built_area_m2_sum\":-0.0000000027,\"income_index_mean\":0.0062584359,\"it_job_density_mean\":0.0000327635,\"aqi_mean\":-0.0000193827}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5349478016,\"population_est\":0.0000000057,\"built_area_m2_sum\":-0.0000000023,\"income_index_mean\":-0.0013405095,\"it_job_density_mean\":0.0000065342,\"aqi_mean\":0.0000203806}",
+    "imp_coef": "{\"Intercept\":0.5370397802,\"population_est\":0.0000000037,\"built_area_m2_sum\":-0.000000002,\"income_index_mean\":0.0032124708,\"it_job_density_mean\":0.0000221497,\"aqi_mean\":-0.0000251358}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5435817393,\"population_est\":0.000000002,\"built_area_m2_sum\":-0.0000000013,\"income_index_mean\":-0.0008949762,\"it_job_density_mean\":0.0000005294,\"aqi_mean\":-0.0000913821}",
+    "imp_coef": "{\"Intercept\":0.537103913,\"population_est\":0.0000000066,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0012564357,\"it_job_density_mean\":0.0000230878,\"aqi_mean\":-0.0000254836}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5345005233,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0023222164,\"it_job_density_mean\":0.0000238006,\"aqi_mean\":0.0000082948}",
+    "imp_coef": "{\"Intercept\":0.5370320574,\"population_est\":0.000000007,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0015804579,\"it_job_density_mean\":0.0000237668,\"aqi_mean\":-0.0000254184}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.537234907,\"population_est\":0.0000000064,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0014252312,\"it_job_density_mean\":0.0000246215,\"aqi_mean\":-0.0000279803}",
+    "imp_coef": "{\"Intercept\":0.5370653901,\"population_est\":0.0000000049,\"built_area_m2_sum\":-0.0000000026,\"income_index_mean\":0.0021467565,\"it_job_density_mean\":0.0000220652,\"aqi_mean\":-0.0000245149}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5408495468,\"population_est\":0.0000000063,\"built_area_m2_sum\":-0.0000000026,\"income_index_mean\":0.0032869105,\"it_job_density_mean\":0.0000209905,\"aqi_mean\":-0.0000778623}",
+    "imp_coef": "{\"Intercept\":0.5361137014,\"population_est\":0.0000000086,\"built_area_m2_sum\":-0.0000000037,\"income_index_mean\":0.0014586517,\"it_job_density_mean\":0.0000322927,\"aqi_mean\":-0.0000202733}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5460391022,\"population_est\":0.000000005,\"built_area_m2_sum\":-0.0000000025,\"income_index_mean\":-0.002997938,\"it_job_density_mean\":0.0000390415,\"aqi_mean\":-0.000152362}",
+    "imp_coef": "{\"Intercept\":0.5364455154,\"population_est\":0.0000000069,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0032723177,\"it_job_density_mean\":0.0000264689,\"aqi_mean\":-0.0000210459}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366260364,\"population_est\":0.000000006,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0030131673,\"it_job_density_mean\":0.0000247312,\"aqi_mean\":-0.0000219647}",
+    "imp_coef": "{\"Intercept\":0.5372088947,\"population_est\":0.0000000008,\"built_area_m2_sum\":-0.0000000016,\"income_index_mean\":0.0040417823,\"it_job_density_mean\":0.0000188392,\"aqi_mean\":-0.0000241248}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.53793098,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0004486703,\"it_job_density_mean\":0.0000148019,\"aqi_mean\":-0.0000287988}",
+    "imp_coef": "{\"Intercept\":0.5367028638,\"population_est\":0.0000000063,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0024641014,\"it_job_density_mean\":0.0000261051,\"aqi_mean\":-0.0000234749}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5364203204,\"population_est\":0.0000000045,\"built_area_m2_sum\":-0.0000000019,\"income_index_mean\":0.003036088,\"it_job_density_mean\":0.000030935,\"aqi_mean\":-0.0000237972}",
+    "imp_coef": "{\"Intercept\":0.5367448701,\"population_est\":0.0000000029,\"built_area_m2_sum\":-0.0000000015,\"income_index_mean\":0.0032025516,\"it_job_density_mean\":0.0000222773,\"aqi_mean\":-0.0000213132}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5348223097,\"population_est\":0.0000000084,\"built_area_m2_sum\":-0.0000000039,\"income_index_mean\":-0.0025640333,\"it_job_density_mean\":0.000024281,\"aqi_mean\":0.000008729}",
+    "imp_coef": "{\"Intercept\":0.5371311299,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0023155878,\"it_job_density_mean\":0.0000246531,\"aqi_mean\":-0.0000279821}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5341593356,\"population_est\":0.0000000106,\"built_area_m2_sum\":-0.0000000038,\"income_index_mean\":0.0039303227,\"it_job_density_mean\":0.0000472621,\"aqi_mean\":-0.0000100956}",
+    "imp_coef": "{\"Intercept\":0.5367052764,\"population_est\":0.0000000078,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.0024367254,\"it_job_density_mean\":0.0000254232,\"aqi_mean\":-0.0000232747}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366531285,\"population_est\":0.0000000071,\"built_area_m2_sum\":-0.0000000034,\"income_index_mean\":0.002378177,\"it_job_density_mean\":0.0000269994,\"aqi_mean\":-0.0000236337}",
+    "imp_coef": "{\"Intercept\":0.5369281243,\"population_est\":0.0000000055,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0028454522,\"it_job_density_mean\":0.0000237887,\"aqi_mean\":-0.0000246006}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5360754502,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0033181366,\"it_job_density_mean\":0.0000348113,\"aqi_mean\":-0.0000226601}",
+    "imp_coef": "{\"Intercept\":0.5366289747,\"population_est\":0.0000000065,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0025916463,\"it_job_density_mean\":0.0000267536,\"aqi_mean\":-0.0000231533}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5422966567,\"population_est\":0.0000000064,\"built_area_m2_sum\":-0.0000000041,\"income_index_mean\":0.0003240623,\"it_job_density_mean\":0.0000174297,\"aqi_mean\":-0.0000886714}",
+    "imp_coef": "{\"Intercept\":0.5369688343,\"population_est\":0.0000000064,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0017844846,\"it_job_density_mean\":0.0000222486,\"aqi_mean\":-0.0000234038}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5361431464,\"population_est\":0.0000000085,\"built_area_m2_sum\":-0.0000000047,\"income_index_mean\":-0.0004334721,\"it_job_density_mean\":0.0000132862,\"aqi_mean\":-0.0000020147}",
+    "imp_coef": "{\"Intercept\":0.537010513,\"population_est\":0.0000000087,\"built_area_m2_sum\":-0.0000000043,\"income_index_mean\":0.0018338919,\"it_job_density_mean\":0.0000238518,\"aqi_mean\":-0.0000251802}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5365447069,\"population_est\":0.0000000055,\"built_area_m2_sum\":-0.0000000023,\"income_index_mean\":0.0023011765,\"it_job_density_mean\":0.0000208994,\"aqi_mean\":-0.0000181468}",
+    "imp_coef": "{\"Intercept\":0.5368569227,\"population_est\":0.0000000059,\"built_area_m2_sum\":-0.0000000027,\"income_index_mean\":0.0019936661,\"it_job_density_mean\":0.0000240441,\"aqi_mean\":-0.0000235128}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.537354046,\"population_est\":0.000000006,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0019529861,\"it_job_density_mean\":0.0000170121,\"aqi_mean\":-0.000024374}",
+    "imp_coef": "{\"Intercept\":0.5370019561,\"population_est\":0.0000000033,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.0033426486,\"it_job_density_mean\":0.0000215086,\"aqi_mean\":-0.0000237172}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5432855027,\"population_est\":0.0000000047,\"built_area_m2_sum\":-0.0000000025,\"income_index_mean\":0.0026589531,\"it_job_density_mean\":0.0000309242,\"aqi_mean\":-0.0001153981}",
+    "imp_coef": "{\"Intercept\":0.5367544008,\"population_est\":0.0000000066,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0023297098,\"it_job_density_mean\":0.0000257396,\"aqi_mean\":-0.0000239517}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5408668809,\"population_est\":0.0000000052,\"built_area_m2_sum\":-0.0000000028,\"income_index_mean\":0.0030012864,\"it_job_density_mean\":0.0000201041,\"aqi_mean\":-0.0000754933}",
+    "imp_coef": "{\"Intercept\":0.5367292065,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0025808344,\"it_job_density_mean\":0.0000253478,\"aqi_mean\":-0.000023188}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5329672078,\"population_est\":0.0000000077,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0016082547,\"it_job_density_mean\":0.0000486041,\"aqi_mean\":0.000010531}",
+    "imp_coef": "{\"Intercept\":0.5366993574,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000028,\"income_index_mean\":0.002138278,\"it_job_density_mean\":0.0000236042,\"aqi_mean\":-0.000021328}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5359359375,\"population_est\":0.0000000057,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0033577906,\"it_job_density_mean\":0.0000237573,\"aqi_mean\":-0.0000116386}",
+    "imp_coef": "{\"Intercept\":0.5368148873,\"population_est\":0.0000000025,\"built_area_m2_sum\":-0.0000000014,\"income_index_mean\":0.0032841006,\"it_job_density_mean\":0.0000207718,\"aqi_mean\":-0.0000210706}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5361711417,\"population_est\":0.000000008,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0012950586,\"it_job_density_mean\":0.0000360944,\"aqi_mean\":-0.0000240437}",
+    "imp_coef": "{\"Intercept\":0.5377187029,\"population_est\":0.0000000012,\"built_area_m2_sum\":-0.0000000017,\"income_index_mean\":0.0024157986,\"it_job_density_mean\":0.0000155328,\"aqi_mean\":-0.0000270438}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5412179788,\"population_est\":0.0000000051,\"built_area_m2_sum\":-0.0000000026,\"income_index_mean\":0.0021271863,\"it_job_density_mean\":0.0000176414,\"aqi_mean\":-0.0000776701}",
+    "imp_coef": "{\"Intercept\":0.536854805,\"population_est\":0.0000000076,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.0018805919,\"it_job_density_mean\":0.0000245717,\"aqi_mean\":-0.0000238758}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5377887983,\"population_est\":0.0000000075,\"built_area_m2_sum\":-0.0000000037,\"income_index_mean\":-0.000393006,\"it_job_density_mean\":0.0000274022,\"aqi_mean\":-0.0000357064}",
+    "imp_coef": "{\"Intercept\":0.5367797212,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0021006081,\"it_job_density_mean\":0.0000245201,\"aqi_mean\":-0.0000228831}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5358926842,\"population_est\":0.0000000093,\"built_area_m2_sum\":-0.000000005,\"income_index_mean\":0.0032917295,\"it_job_density_mean\":0.0000438452,\"aqi_mean\":-0.0000269761}",
+    "imp_coef": "{\"Intercept\":0.5370189246,\"population_est\":0.0000000051,\"built_area_m2_sum\":-0.0000000027,\"income_index_mean\":0.0021992682,\"it_job_density_mean\":0.0000233233,\"aqi_mean\":-0.0000248314}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366795849,\"population_est\":0.0000000085,\"built_area_m2_sum\":-0.0000000039,\"income_index_mean\":0.0011507598,\"it_job_density_mean\":0.0000323277,\"aqi_mean\":-0.000027181}",
+    "imp_coef": "{\"Intercept\":0.5369214464,\"population_est\":0.0000000073,\"built_area_m2_sum\":-0.0000000034,\"income_index_mean\":0.0017468814,\"it_job_density_mean\":0.0000246613,\"aqi_mean\":-0.000024889}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5325130077,\"population_est\":0.0000000107,\"built_area_m2_sum\":-0.0000000046,\"income_index_mean\":0.0044343757,\"it_job_density_mean\":0.0000420316,\"aqi_mean\":0.0000165408}",
+    "imp_coef": "{\"Intercept\":0.5369178386,\"population_est\":0.000000006,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0024545213,\"it_job_density_mean\":0.0000232218,\"aqi_mean\":-0.0000239562}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5428284684,\"population_est\":0.0000000062,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0004323751,\"it_job_density_mean\":0.0000379805,\"aqi_mean\":-0.0001136197}",
+    "imp_coef": "{\"Intercept\":0.5370541518,\"population_est\":0.0000000078,\"built_area_m2_sum\":-0.0000000034,\"income_index_mean\":0.0010465092,\"it_job_density_mean\":0.0000238345,\"aqi_mean\":-0.0000255152}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5369216756,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":-0.0012922518,\"it_job_density_mean\":0.0000079811,\"aqi_mean\":-0.0000066549}",
+    "imp_coef": "{\"Intercept\":0.5365622437,\"population_est\":0.0000000063,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0026824828,\"it_job_density_mean\":0.0000262649,\"aqi_mean\":-0.0000218032}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5372101726,\"population_est\":0.000000006,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0030029135,\"it_job_density_mean\":0.0000182545,\"aqi_mean\":-0.000023928}",
+    "imp_coef": "{\"Intercept\":0.5368467141,\"population_est\":0.0000000057,\"built_area_m2_sum\":-0.0000000027,\"income_index_mean\":0.0021198437,\"it_job_density_mean\":0.0000244005,\"aqi_mean\":-0.0000237593}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5410216487,\"population_est\":0.0000000046,\"built_area_m2_sum\":-0.0000000039,\"income_index_mean\":0.0071326971,\"it_job_density_mean\":0.0000158174,\"aqi_mean\":-0.0000762014}",
+    "imp_coef": "{\"Intercept\":0.536551914,\"population_est\":0.0000000054,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0039495207,\"it_job_density_mean\":0.0000248278,\"aqi_mean\":-0.0000210228}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5377879041,\"population_est\":0.0000000015,\"built_area_m2_sum\":-0.0000000011,\"income_index_mean\":0.0000570119,\"it_job_density_mean\":0.0000367309,\"aqi_mean\":-0.0000419729}",
+    "imp_coef": "{\"Intercept\":0.5365923222,\"population_est\":0.0000000032,\"built_area_m2_sum\":-0.0000000019,\"income_index_mean\":0.0043730801,\"it_job_density_mean\":0.0000229887,\"aqi_mean\":-0.0000204689}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5377872095,\"population_est\":0.0000000058,\"built_area_m2_sum\":-0.0000000024,\"income_index_mean\":0.0002549413,\"it_job_density_mean\":0.0000136507,\"aqi_mean\":-0.0000263528}",
+    "imp_coef": "{\"Intercept\":0.5370270331,\"population_est\":0.000000004,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.0027384252,\"it_job_density_mean\":0.0000199397,\"aqi_mean\":-0.0000228236}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5340363326,\"population_est\":0.000000006,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.0022376625,\"it_job_density_mean\":0.000027445,\"aqi_mean\":0.000010644}",
+    "imp_coef": "{\"Intercept\":0.5370365178,\"population_est\":0.0000000036,\"built_area_m2_sum\":-0.0000000018,\"income_index_mean\":0.0025748721,\"it_job_density_mean\":0.0000205851,\"aqi_mean\":-0.0000234513}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5369287377,\"population_est\":0.0000000045,\"built_area_m2_sum\":-0.0000000018,\"income_index_mean\":0.0018949103,\"it_job_density_mean\":0.0000254644,\"aqi_mean\":-0.0000254795}",
+    "imp_coef": "{\"Intercept\":0.5368713674,\"population_est\":0.0000000066,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0024166653,\"it_job_density_mean\":0.0000254735,\"aqi_mean\":-0.0000249266}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5339585344,\"population_est\":0.000000009,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.0020215292,\"it_job_density_mean\":0.0000245521,\"aqi_mean\":0.0000129385}",
+    "imp_coef": "{\"Intercept\":0.537174775,\"population_est\":0.0000000084,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.000308521,\"it_job_density_mean\":0.0000226236,\"aqi_mean\":-0.0000256796}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5372169619,\"population_est\":0.0000000058,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0033575772,\"it_job_density_mean\":0.0000144736,\"aqi_mean\":-0.0000216658}",
+    "imp_coef": "{\"Intercept\":0.5365729917,\"population_est\":0.0000000062,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0031884412,\"it_job_density_mean\":0.0000266624,\"aqi_mean\":-0.0000225873}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5363340149,\"population_est\":0.0000000053,\"built_area_m2_sum\":-0.0000000028,\"income_index_mean\":0.0037670802,\"it_job_density_mean\":0.0000321963,\"aqi_mean\":-0.0000238145}",
+    "imp_coef": "{\"Intercept\":0.5369539234,\"population_est\":0.0000000046,\"built_area_m2_sum\":-0.0000000026,\"income_index_mean\":0.0025303665,\"it_job_density_mean\":0.0000241413,\"aqi_mean\":-0.0000247605}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.537822826,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.0005864037,\"it_job_density_mean\":0.0000252834,\"aqi_mean\":-0.0000350871}",
+    "imp_coef": "{\"Intercept\":0.5370931713,\"population_est\":0.0000000051,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0034454171,\"it_job_density_mean\":0.0000285373,\"aqi_mean\":-0.0000305567}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5404148667,\"population_est\":0.0000000077,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.0042975284,\"it_job_density_mean\":0.0000567308,\"aqi_mean\":-0.0001009376}",
+    "imp_coef": "{\"Intercept\":0.5367382815,\"population_est\":0.0000000073,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.001826147,\"it_job_density_mean\":0.0000259254,\"aqi_mean\":-0.0000235137}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5352366814,\"population_est\":0.0000000055,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0027104925,\"it_job_density_mean\":0.0000168599,\"aqi_mean\":0.0000042848}",
+    "imp_coef": "{\"Intercept\":0.537305756,\"population_est\":0.0000000027,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.0029135134,\"it_job_density_mean\":0.000018578,\"aqi_mean\":-0.0000250617}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5417688916,\"population_est\":0.0000000078,\"built_area_m2_sum\":-0.0000000034,\"income_index_mean\":0.0030018981,\"it_job_density_mean\":0.0000472669,\"aqi_mean\":-0.0001102321}",
+    "imp_coef": "{\"Intercept\":0.5368130876,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0021556903,\"it_job_density_mean\":0.00002351,\"aqi_mean\":-0.0000225542}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5426406389,\"population_est\":0.0000000069,\"built_area_m2_sum\":-0.0000000029,\"income_index_mean\":0.0006930256,\"it_job_density_mean\":0.0000164136,\"aqi_mean\":-0.0000949833}",
+    "imp_coef": "{\"Intercept\":0.5375681934,\"population_est\":0.0000000017,\"built_area_m2_sum\":-0.000000002,\"income_index_mean\":0.0045362898,\"it_job_density_mean\":0.0000205425,\"aqi_mean\":-0.0000304866}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5365755737,\"population_est\":0.0000000071,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0026570886,\"it_job_density_mean\":0.0000302909,\"aqi_mean\":-0.0000252443}",
+    "imp_coef": "{\"Intercept\":0.5368285348,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0020232896,\"it_job_density_mean\":0.0000249125,\"aqi_mean\":-0.0000239014}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5346283303,\"population_est\":0.0000000045,\"built_area_m2_sum\":-0.0000000025,\"income_index_mean\":0.0021285253,\"it_job_density_mean\":0.0000282383,\"aqi_mean\":0.0000043859}",
+    "imp_coef": "{\"Intercept\":0.5373356901,\"population_est\":0.0000000051,\"built_area_m2_sum\":-0.0000000023,\"income_index_mean\":0.0007737767,\"it_job_density_mean\":0.0000181066,\"aqi_mean\":-0.0000241657}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5371299788,\"population_est\":0.0000000065,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0028420677,\"it_job_density_mean\":0.0000114895,\"aqi_mean\":-0.0000185034}",
+    "imp_coef": "{\"Intercept\":0.535899685,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000038,\"income_index_mean\":0.0056089087,\"it_job_density_mean\":0.0000293187,\"aqi_mean\":-0.0000170647}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5390820433,\"population_est\":0.0000000067,\"built_area_m2_sum\":-0.0000000042,\"income_index_mean\":0.0004322066,\"it_job_density_mean\":0.0000077741,\"aqi_mean\":-0.0000373475}",
+    "imp_coef": "{\"Intercept\":0.5372423911,\"population_est\":0.0000000042,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.001976869,\"it_job_density_mean\":0.0000195159,\"aqi_mean\":-0.0000248656}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366978174,\"population_est\":0.0000000076,\"built_area_m2_sum\":-0.0000000044,\"income_index_mean\":0.0009654029,\"it_job_density_mean\":0.0000424562,\"aqi_mean\":-0.0000336548}",
+    "imp_coef": "{\"Intercept\":0.5373375455,\"population_est\":0.0000000057,\"built_area_m2_sum\":-0.0000000028,\"income_index_mean\":0.0010992729,\"it_job_density_mean\":0.0000185427,\"aqi_mean\":-0.0000246906}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5327427179,\"population_est\":0.0000000084,\"built_area_m2_sum\":-0.0000000034,\"income_index_mean\":0.0012346277,\"it_job_density_mean\":0.0000519636,\"aqi_mean\":0.000009411}",
+    "imp_coef": "{\"Intercept\":0.5374716553,\"population_est\":0.0000000055,\"built_area_m2_sum\":-0.0000000025,\"income_index_mean\":0.0006188832,\"it_job_density_mean\":0.0000180374,\"aqi_mean\":-0.0000258619}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366049125,\"population_est\":0.0000000074,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0021673069,\"it_job_density_mean\":0.0000184848,\"aqi_mean\":-0.0000171512}",
+    "imp_coef": "{\"Intercept\":0.5369515248,\"population_est\":0.0000000054,\"built_area_m2_sum\":-0.0000000026,\"income_index_mean\":0.0023079258,\"it_job_density_mean\":0.0000239418,\"aqi_mean\":-0.000024813}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5368949063,\"population_est\":0.0000000079,\"built_area_m2_sum\":-0.0000000036,\"income_index_mean\":0.001727557,\"it_job_density_mean\":0.0000203224,\"aqi_mean\":-0.0000216148}",
+    "imp_coef": "{\"Intercept\":0.5372285747,\"population_est\":0.000000007,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0007531548,\"it_job_density_mean\":0.0000217892,\"aqi_mean\":-0.0000258619}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5367127618,\"population_est\":0.0000000058,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0039967626,\"it_job_density_mean\":0.0000075545,\"aqi_mean\":-0.0000115981}",
+    "imp_coef": "{\"Intercept\":0.536028322,\"population_est\":0.0000000075,\"built_area_m2_sum\":-0.0000000044,\"income_index_mean\":0.0054146496,\"it_job_density_mean\":0.000032161,\"aqi_mean\":-0.0000210744}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5361509786,\"population_est\":0.0000000064,\"built_area_m2_sum\":-0.0000000033,\"income_index_mean\":0.0042898985,\"it_job_density_mean\":0.0000308208,\"aqi_mean\":-0.0000217983}",
+    "imp_coef": "{\"Intercept\":0.536896914,\"population_est\":0.000000007,\"built_area_m2_sum\":-0.0000000032,\"income_index_mean\":0.0017908759,\"it_job_density_mean\":0.0000245415,\"aqi_mean\":-0.0000243523}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5359316937,\"population_est\":0.0000000084,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0029754301,\"it_job_density_mean\":0.0000390566,\"aqi_mean\":-0.0000259564}",
+    "imp_coef": "{\"Intercept\":0.5372574367,\"population_est\":0.0000000008,\"built_area_m2_sum\":-0.0000000016,\"income_index_mean\":0.0040651526,\"it_job_density_mean\":0.0000202198,\"aqi_mean\":-0.0000258862}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5361628261,\"population_est\":0.0000000061,\"built_area_m2_sum\":-0.0000000024,\"income_index_mean\":0.0039225457,\"it_job_density_mean\":0.0000186325,\"aqi_mean\":-0.0000130799}",
+    "imp_coef": "{\"Intercept\":0.5367738942,\"population_est\":0.0000000062,\"built_area_m2_sum\":-0.0000000028,\"income_index_mean\":0.002123272,\"it_job_density_mean\":0.0000246699,\"aqi_mean\":-0.0000231959}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5366301102,\"population_est\":0.0000000051,\"built_area_m2_sum\":-0.0000000027,\"income_index_mean\":-0.0006484567,\"it_job_density_mean\":0.0000075405,\"aqi_mean\":-0.0000032237}",
+    "imp_coef": "{\"Intercept\":0.5366637444,\"population_est\":0.0000000064,\"built_area_m2_sum\":-0.0000000031,\"income_index_mean\":0.0027637873,\"it_job_density_mean\":0.0000262215,\"aqi_mean\":-0.0000231707}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5338013386,\"population_est\":0.0000000042,\"built_area_m2_sum\":-0.0000000021,\"income_index_mean\":0.0016748816,\"it_job_density_mean\":0.0000470721,\"aqi_mean\":0.0000014971}",
+    "imp_coef": "{\"Intercept\":0.5364960707,\"population_est\":0.0000000063,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0030287844,\"it_job_density_mean\":0.0000261416,\"aqi_mean\":-0.0000211749}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5367112835,\"population_est\":0.0000000078,\"built_area_m2_sum\":-0.000000004,\"income_index_mean\":0.0027347049,\"it_job_density_mean\":0.0000253114,\"aqi_mean\":-0.0000232069}",
+    "imp_coef": "{\"Intercept\":0.5367506518,\"population_est\":0.0000000062,\"built_area_m2_sum\":-0.000000003,\"income_index_mean\":0.0024279108,\"it_job_density_mean\":0.0000254901,\"aqi_mean\":-0.0000235994}"
+  },
+  {
+    "cc_coef": "{\"Intercept\":0.5409739154,\"population_est\":0.0000000087,\"built_area_m2_sum\":-0.0000000046,\"income_index_mean\":0.0035399641,\"it_job_density_mean\":0.0000302154,\"aqi_mean\":-0.0000852018}",
+    "imp_coef": "{\"Intercept\":0.5363807184,\"population_est\":0.0000000083,\"built_area_m2_sum\":-0.0000000044,\"income_index_mean\":0.003164523,\"it_job_density_mean\":0.0000292417,\"aqi_mean\":-0.0000219967}"
+  }
+]

@@ -1,0 +1,17 @@
+2025-12-28 22:38:07,916 | INFO | 
+==== Processing variable: population  strategy: prior_based ====
+2025-12-28 22:38:07,917 | INFO | [PRIOR] Using prior-based forecasting for population
+2025-12-28 22:38:08,578 | INFO | [SAVE] population forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251228_170807\population_forecast_2026_2035.csv
+2025-12-28 22:38:09,533 | INFO | 
+==== Processing variable: rainfall  strategy: prior_based ====
+2025-12-28 22:38:09,534 | INFO | [PRIOR] Using prior-based forecasting for rainfall
+2025-12-28 22:38:10,503 | INFO | [SAVE] rainfall forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251228_170807\rainfall_forecast_2026_2035.csv
+2025-12-28 22:38:11,069 | INFO | 
+==== Processing variable: electricity_demand  strategy: ensemble ====
+2025-12-28 22:38:11,069 | INFO | [DATA PREP] Building datasets for electricity_demand
+2025-12-28 22:38:11,115 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-28 22:38:13,315 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187
+2025-12-28 22:38:15,178 | INFO | [TRAIN] N-BEATS for electricity_demand
+2025-12-28 22:40:56,170 | INFO | [TRAIN] TFT for electricity_demand
+2025-12-28 22:40:57,585 | WARNING | TFT interpretation skipped: slice indices must be integers or None or have an __index__ method
+2025-12-28 22:40:57,647 | INFO | [PREDICT] Will produce forecasts for 187 wards for target electricity_demand

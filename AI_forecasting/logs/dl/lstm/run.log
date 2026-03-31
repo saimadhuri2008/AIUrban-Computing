@@ -1,0 +1,95 @@
+2025-12-27 16:08:30,568 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-27 16:08:30,742 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-27 16:08:30,747 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-27 16:08:30,768 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-27 16:08:30,823 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-27 16:08:30,824 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-27 16:08:31,193 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-27 16:08:31,198 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-27 16:08:31,245 | INFO | Starting training... (this may take some time)
+2025-12-27 16:42:28,649 | INFO | Best checkpoint saved at: {ckpt_path}
+2025-12-27 16:42:28,715 | INFO | Total months to forecast (future): {TOTAL_HORIZON}
+2025-12-27 16:44:33,176 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-27 16:44:33,432 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-27 16:44:33,434 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-27 16:44:33,451 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-27 16:44:33,504 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-27 16:44:33,505 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-27 16:44:33,876 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-27 16:44:33,880 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-27 16:44:33,932 | INFO | Starting training... (this may take some time)
+2025-12-28 16:40:30,388 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-28 19:22:10,737 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling.parquet
+2025-12-28 19:22:10,871 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-28 19:22:10,873 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-28 19:22:10,873 | WARNING | Warning: numeric_cols in scaler differs from meta tv_cols. Overriding scaler numeric_cols with meta tv_cols.
+2025-12-28 19:22:10,887 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-28 19:22:10,924 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-28 19:22:10,926 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:22:11,146 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-28 19:22:11,150 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-28 19:22:11,198 | INFO | Starting training... (this may take some time)
+2025-12-28 19:27:03,123 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 19:27:03,217 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers.joblib
+2025-12-28 19:27:03,218 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta.json
+2025-12-28 19:27:03,218 | WARNING | Warning: numeric_cols in scaler differs from meta tv_cols. Overriding scaler numeric_cols with meta tv_cols.
+2025-12-28 19:27:03,222 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-28 19:27:03,276 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-28 19:27:03,277 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:27:03,490 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-28 19:27:03,492 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-28 19:27:03,518 | INFO | Starting training... (this may take some time)
+2025-12-28 19:36:06,562 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 19:36:06,662 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers_lstm.joblib
+2025-12-28 19:36:06,663 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta_lstm.json
+2025-12-28 19:36:06,668 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-28 19:36:06,704 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-28 19:36:06,705 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:36:06,912 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-28 19:36:06,914 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-28 19:36:06,945 | INFO | Starting training... (this may take some time)
+2025-12-28 19:48:52,096 | INFO | Best checkpoint saved at: C:\AIurban-planning\AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926.ckpt
+2025-12-28 19:48:52,103 | INFO | Total months to forecast (future): 120
+2025-12-28 19:48:58,089 | INFO | Saved predictions to:results\forecasting\dl\models_lstm\lstm_predictions_2026_2035.csv
+2025-12-28 19:48:58,092 | WARNING | No future ground truth available — skipping error analyses
+2025-12-28 19:59:39,279 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 19:59:39,417 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers_lstm.joblib
+2025-12-28 19:59:39,421 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta_lstm.json
+2025-12-28 19:59:39,424 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-28 19:59:39,457 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-28 19:59:39,458 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 19:59:39,672 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-28 19:59:39,676 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-28 19:59:39,709 | INFO | Starting training... (this may take some time)
+2025-12-28 20:13:44,058 | INFO | Best checkpoint saved at: C:\AIurban-planning\AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v1.ckpt
+2025-12-28 20:13:44,068 | INFO | Total months to forecast (future): 120
+2025-12-28 20:13:49,730 | INFO | Saved predictions to:results\forecasting\dl\models_lstm\lstm_predictions_2026_2035.csv
+2025-12-28 20:13:49,732 | WARNING | No future ground truth available — skipping error analyses
+2025-12-28 20:35:29,451 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-28 20:35:29,550 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers_lstm.joblib
+2025-12-28 20:35:29,551 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta_lstm.json
+2025-12-28 20:35:29,554 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-28 20:35:29,594 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-28 20:35:29,595 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-28 20:35:29,799 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-28 20:35:29,802 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-28 20:35:29,831 | INFO | Starting training... (this may take some time)
+2025-12-28 20:57:12,490 | INFO | Best checkpoint saved at: C:\AIurban-planning\AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v2.ckpt
+2025-12-28 20:57:12,493 | INFO | Saved training metrics to: AI_forecasting\artifacts\dl\lstm\train_metrics.json
+2025-12-28 20:57:12,496 | INFO | Total months to forecast (future): 120
+2025-12-28 20:57:23,805 | INFO | Saved predictions to:results\forecasting\dl\models_lstm\lstm_predictions_2026_2035.csv
+2025-12-28 20:57:23,809 | WARNING | No future ground truth available — skipping error analyses
+2025-12-29 12:18:03,459 | INFO | Loading cleaned data: AI_forecasting\data\input\masterdata_for_modeling_lstm.parquet
+2025-12-29 12:18:03,560 | INFO | Loading scaler from: AI_forecasting\artifacts\dl\metadata\scalers_lstm.joblib
+2025-12-29 12:18:03,563 | INFO | Loading meta from: AI_forecasting\artifacts\dl\metadata\meta_lstm.json
+2025-12-29 12:18:03,566 | INFO | No future rows found in parquet. Creating future stub for 2026-01 to 2035-12 for all wards.
+2025-12-29 12:18:03,600 | INFO | Real rows: 26928 | Future rows: 22440
+2025-12-29 12:18:03,602 | INFO | Date ranges -> real: 2014-01-01 00:00:00 -> 2025-12-01 00:00:00
+2025-12-29 12:18:03,832 | INFO | [Dataset] Built 18139 windows from 187 wards
+2025-12-29 12:18:03,834 | INFO | Train windows: 15895, Validation windows: 2244
+2025-12-29 12:18:03,861 | INFO | Starting training... (this may take some time)
+2025-12-29 12:32:18,276 | INFO | Best checkpoint saved at: C:\AIurban-planning\AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v3.ckpt
+2025-12-29 12:32:18,276 | INFO | Saved training metrics to: AI_forecasting\artifacts\dl\lstm\train_metrics.json
+2025-12-29 12:32:18,278 | INFO | Total months to forecast (future): 120
+2025-12-29 12:32:23,775 | INFO | Saved predictions to:AI_forecasting\results\lstm\lstm_predictions_2026_2035.csv
+2025-12-29 12:32:23,778 | WARNING | No future ground truth available — skipping error analyses

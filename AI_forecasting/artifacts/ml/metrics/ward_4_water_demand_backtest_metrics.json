@@ -1,0 +1,17 @@
+{
+  "ward_id": "ward_4",
+  "target": "water_demand",
+  "model": "lgb",
+  "train_rows": 144,
+  "forecast_horizon_months": 60,
+  "backtest": {
+    "train_end": "2024-12",
+    "test_period": "2025-01 to 2025-12",
+    "metrics": {
+      "mae": 8.055728247195286e-05,
+      "rmse": 8.723796675006176e-05,
+      "mape": 0.00043503353102387855
+    }
+  },
+  "timestamp": "2025-12-28T11:25:15.458873"
+}

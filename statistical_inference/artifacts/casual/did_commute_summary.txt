@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           commute_time   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.015
+Method:                 Least Squares   F-statistic:                     6.964
+Date:                Mon, 22 Dec 2025   Prob (F-statistic):           0.000120
+Time:                        19:35:00   Log-Likelihood:                -4596.1
+No. Observations:                1188   AIC:                             9200.
+Df Residuals:                    1184   BIC:                             9221.
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        37.2331      0.521     71.510      0.000      36.213      38.254
+treated_group     1.4806      1.251      1.183      0.237      -0.972       3.933
+post              3.1596      0.742      4.261      0.000       1.706       4.613
+did              -5.0492      1.768     -2.856      0.004      -8.514      -1.584
+==============================================================================
+Omnibus:                        5.003   Durbin-Watson:                   0.257
+Prob(Omnibus):                  0.082   Jarque-Bera (JB):                3.966
+Skew:                          -0.001   Prob(JB):                        0.138
+Kurtosis:                       2.717   Cond. No.                         6.83
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

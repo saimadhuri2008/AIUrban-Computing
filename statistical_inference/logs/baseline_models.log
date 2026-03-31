@@ -1,0 +1,13 @@
+2025-12-22 08:09:32,778 | INFO | ================================================================================
+2025-12-22 08:09:32,778 | INFO | Baseline statistical modeling — START
+2025-12-22 08:09:32,779 | INFO | Input wards: statistical_inference\data\derived\wards_enriched.geojson
+2025-12-22 08:09:32,779 | INFO | Baseline modeling started
+2025-12-22 08:09:32,991 | INFO | Fitting OLS population baseline model
+2025-12-22 08:09:33,145 | INFO | Fitting GLM Gaussian travel model
+2025-12-22 08:09:33,157 | INFO | Fitting Poisson outflow model
+2025-12-22 08:09:33,167 | INFO | Fitting Negative Binomial model
+2025-12-22 08:09:33,315 | INFO | Running spatial lag model
+2025-12-22 08:09:33,320 | INFO | Running spatial lag models
+2025-12-22 08:09:33,329 | INFO | Running spatial Durbin model
+2025-12-22 08:09:33,331 | INFO | Running spatial Durbin models
+2025-12-22 08:09:34,019 | INFO | Baseline modeling complete. Base directory: statistical_inference

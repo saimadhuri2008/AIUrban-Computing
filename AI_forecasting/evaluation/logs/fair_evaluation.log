@@ -1,0 +1,39 @@
+2026-01-16 23:21:30,964 | INFO | ====================================================================================================
+2026-01-16 23:21:30,964 | INFO | LSTM FAIR EVALUATION (Matching SARIMAX Methodology)
+2026-01-16 23:21:30,964 | INFO | ====================================================================================================
+2026-01-16 23:21:30,965 | INFO | 
+[STEP 1] Loading data...
+2026-01-16 23:21:31,013 | INFO | Loaded 26928 rows
+2026-01-16 23:21:31,014 | INFO |    Date range: 2014-01-01 00:00:00 to 2025-12-01 00:00:00
+2026-01-16 23:21:31,016 | INFO |    Unique wards: 187
+2026-01-16 23:21:31,017 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 23:21:31,019 | INFO |    Target columns: ['electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-16 23:21:31,019 | INFO | 
+[STEP 3] Loading LSTM model...
+2026-01-16 23:21:31,020 | INFO |    Checkpoint: AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v1.ckpt
+2026-01-16 23:21:31,279 | INFO |    Model loaded successfully
+2026-01-16 23:21:31,280 | INFO | 
+[STEP 4] Running fair evaluation...
+2026-01-16 23:21:31,280 | INFO | 
+  Evaluating 12-month horizon...
+2026-01-16 23:21:32,450 | INFO |     Evaluated 187 wards
+2026-01-16 23:21:32,451 | INFO | 
+  Evaluating 36-month horizon...
+2026-01-16 23:21:34,373 | INFO |     Evaluated 187 wards
+2026-01-16 23:21:34,373 | INFO | 
+  Evaluating 60-month horizon...
+2026-01-16 23:21:34,640 | WARNING |     No valid results for 60-month horizon
+2026-01-16 23:21:34,640 | INFO | 
+[STEP 5] Aggregating metrics...
+2026-01-16 23:21:34,646 | INFO | 
+[STEP 6] Saving results...
+2026-01-16 23:21:34,648 | INFO |    Saved: AI_forecasting\evaluation\lstm_fair\lstm_metrics_12months.csv
+2026-01-16 23:21:34,649 | INFO |    Saved: AI_forecasting\evaluation\lstm_fair\lstm_metrics_36months.csv
+2026-01-16 23:21:34,651 | INFO |    Saved: AI_forecasting\evaluation\lstm_fair\lstm_metrics_all_horizons.csv
+2026-01-16 23:21:34,651 | INFO | 
+====================================================================================================
+2026-01-16 23:21:34,651 | INFO | EVALUATION COMPLETE!
+2026-01-16 23:21:34,651 | INFO | ====================================================================================================
+2026-01-16 23:21:34,657 | INFO | 
+All results saved to: AI_forecasting\evaluation\lstm_fair

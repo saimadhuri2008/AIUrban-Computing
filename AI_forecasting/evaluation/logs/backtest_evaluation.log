@@ -1,0 +1,113 @@
+2026-01-16 22:57:42,853 | INFO | ====================================================================================================
+2026-01-16 22:57:42,854 | INFO | LSTM BACKTESTING EVALUATION (Historical Data 2014-2025)
+2026-01-16 22:57:42,854 | INFO | ====================================================================================================
+2026-01-16 22:57:42,854 | INFO | 
+[STEP 1] Loading historical data (2014-2025)...
+2026-01-16 22:57:42,916 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 22:57:42,921 | INFO | 
+[STEP 3] Loading trained LSTM model...
+2026-01-16 23:01:29,727 | INFO | ====================================================================================================
+2026-01-16 23:01:29,728 | INFO | LSTM BACKTESTING EVALUATION (Historical Data 2014-2025)
+2026-01-16 23:01:29,728 | INFO | ====================================================================================================
+2026-01-16 23:01:29,728 | INFO | 
+[STEP 1] Loading historical data (2014-2025)...
+2026-01-16 23:01:29,775 | INFO | Loaded 26928 historical rows
+2026-01-16 23:01:29,776 | INFO |    Date range: 2014-01-01 00:00:00 to 2025-12-01 00:00:00
+2026-01-16 23:01:29,778 | INFO |  Unique wards: 187
+2026-01-16 23:01:29,778 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 23:01:29,779 | INFO |    Target columns: ['electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-16 23:01:29,780 | INFO | 
+[STEP 3] Loading trained LSTM model...
+2026-01-16 23:01:29,781 | ERROR | 
+ ERROR: No model checkpoint found. Please train the model first.
+2026-01-16 23:02:34,376 | INFO | ====================================================================================================
+2026-01-16 23:02:34,376 | INFO | LSTM BACKTESTING EVALUATION (Historical Data 2014-2025)
+2026-01-16 23:02:34,376 | INFO | ====================================================================================================
+2026-01-16 23:02:34,376 | INFO | 
+[STEP 1] Loading historical data (2014-2025)...
+2026-01-16 23:02:34,419 | INFO | Loaded 26928 historical rows
+2026-01-16 23:02:34,419 | INFO |    Date range: 2014-01-01 00:00:00 to 2025-12-01 00:00:00
+2026-01-16 23:02:34,420 | INFO |  Unique wards: 187
+2026-01-16 23:02:34,420 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 23:02:34,421 | INFO |    Target columns: ['electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-16 23:02:34,422 | INFO | 
+[STEP 3] Loading trained LSTM model...
+2026-01-16 23:02:34,422 | ERROR | 
+ ERROR: No model checkpoint found. Please train the model first.
+2026-01-16 23:04:50,370 | INFO | ====================================================================================================
+2026-01-16 23:04:50,370 | INFO | LSTM BACKTESTING EVALUATION (Historical Data 2014-2025)
+2026-01-16 23:04:50,370 | INFO | ====================================================================================================
+2026-01-16 23:04:50,371 | INFO | 
+[STEP 1] Loading historical data (2014-2025)...
+2026-01-16 23:04:50,412 | INFO | Loaded 26928 historical rows
+2026-01-16 23:04:50,412 | INFO |    Date range: 2014-01-01 00:00:00 to 2025-12-01 00:00:00
+2026-01-16 23:04:50,414 | INFO |  Unique wards: 187
+2026-01-16 23:04:50,414 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 23:04:50,415 | INFO |    Target columns: ['electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-16 23:04:50,415 | INFO | 
+[STEP 3] Loading trained LSTM model...
+2026-01-16 23:04:50,416 | INFO |    Loading checkpoint: AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v1.ckpt
+2026-01-16 23:04:51,016 | INFO |    Model loaded successfully
+2026-01-16 23:04:51,017 | INFO | 
+[STEP 4] Running backtesting evaluation...
+2026-01-16 23:04:51,017 | INFO | 
+  Backtesting 12-month horizon (train until 2020-12-01)...
+2026-01-16 23:04:51,694 | INFO |     Generated 2244 predictions
+2026-01-16 23:04:51,706 | ERROR | 
+ UNEXPECTED ERROR: got an unexpected keyword argument 'squared'
+2026-01-16 23:06:27,208 | INFO | ====================================================================================================
+2026-01-16 23:06:27,209 | INFO | LSTM BACKTESTING EVALUATION (Historical Data 2014-2025)
+2026-01-16 23:06:27,209 | INFO | ====================================================================================================
+2026-01-16 23:06:27,209 | INFO | 
+[STEP 1] Loading historical data (2014-2025)...
+2026-01-16 23:06:27,254 | INFO | Loaded 26928 historical rows
+2026-01-16 23:06:27,255 | INFO |    Date range: 2014-01-01 00:00:00 to 2025-12-01 00:00:00
+2026-01-16 23:06:27,256 | INFO |  Unique wards: 187
+2026-01-16 23:06:27,256 | INFO | 
+[STEP 2] Loading scaler and metadata...
+2026-01-16 23:06:27,256 | INFO |    Target columns: ['electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-16 23:06:27,257 | INFO | 
+[STEP 3] Loading trained LSTM model...
+2026-01-16 23:06:27,257 | INFO |    Loading checkpoint: AI_forecasting\artifacts\dl\lstm\lstm_global_epoch=21-val_loss=0.1926-v1.ckpt
+2026-01-16 23:06:27,628 | INFO |    Model loaded successfully
+2026-01-16 23:06:27,628 | INFO | 
+[STEP 4] Running backtesting evaluation...
+2026-01-16 23:06:27,629 | INFO | 
+  Backtesting 12-month horizon (train until 2020-12-01)...
+2026-01-16 23:06:28,215 | INFO |     Generated 2244 predictions
+2026-01-16 23:06:28,221 | INFO |     Results for 12-month horizon:
+2026-01-16 23:06:28,223 | INFO |       electricity_demand: MAE=1529.8446, RMSE=2202.8551, MAPE=19.48%
+2026-01-16 23:06:28,223 | INFO |       water_demand: MAE=55.2956, RMSE=76.5052, MAPE=8.89%
+2026-01-16 23:06:28,223 | INFO |       congestion_index: MAE=0.0012, RMSE=0.0016, MAPE=0.26%
+2026-01-16 23:06:28,223 | INFO |       pm25: MAE=4.0676, RMSE=5.1125, MAPE=6.30%
+2026-01-16 23:06:28,223 | INFO | 
+  Backtesting 36-month horizon (train until 2019-12-01)...
+2026-01-16 23:06:29,542 | INFO |     Generated 6732 predictions
+2026-01-16 23:06:29,550 | INFO |     Results for 36-month horizon:
+2026-01-16 23:06:29,550 | INFO |       electricity_demand: MAE=4355.7515, RMSE=6657.1804, MAPE=39.96%
+2026-01-16 23:06:29,551 | INFO |       water_demand: MAE=74.0006, RMSE=97.7490, MAPE=11.94%
+2026-01-16 23:06:29,551 | INFO |       congestion_index: MAE=0.0287, RMSE=0.0390, MAPE=5.90%
+2026-01-16 23:06:29,551 | INFO |       pm25: MAE=14.2062, RMSE=17.9633, MAPE=22.09%
+2026-01-16 23:06:29,551 | INFO | 
+  Backtesting 60-month horizon (train until 2017-12-01)...
+2026-01-16 23:06:31,799 | INFO |     Generated 11220 predictions
+2026-01-16 23:06:31,806 | INFO |     Results for 60-month horizon:
+2026-01-16 23:06:31,806 | INFO |       electricity_demand: MAE=5382.6999, RMSE=8058.8536, MAPE=48.37%
+2026-01-16 23:06:31,807 | INFO |       water_demand: MAE=87.4164, RMSE=118.7446, MAPE=13.92%
+2026-01-16 23:06:31,807 | INFO |       congestion_index: MAE=0.0354, RMSE=0.0457, MAPE=7.38%
+2026-01-16 23:06:31,807 | INFO |       pm25: MAE=16.5279, RMSE=19.7530, MAPE=25.83%
+2026-01-16 23:06:31,807 | INFO | 
+[STEP 5] Saving evaluation results...
+2026-01-16 23:06:31,809 | INFO |    Saved: AI_forecasting\evaluation\lstm\backtest_metrics.json
+2026-01-16 23:06:31,812 | INFO |    Saved: AI_forecasting\evaluation\lstm\backtest_comparison.csv
+2026-01-16 23:06:31,816 | INFO |    Saved: AI_forecasting\evaluation\lstm\backtest_summary.txt
+2026-01-16 23:06:31,816 | INFO | 
+====================================================================================================
+2026-01-16 23:06:31,816 | INFO | EVALUATION COMPLETE!
+2026-01-16 23:06:31,817 | INFO | ====================================================================================================
+2026-01-16 23:06:31,822 | INFO | 
+ All results saved to: AI_forecasting\evaluation\lstm

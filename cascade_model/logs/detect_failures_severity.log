@@ -1,0 +1,12 @@
+2026-01-09 16:06:10,311 | INFO | Starting severity-based failure detection
+2026-01-09 16:06:11,208 | INFO | Saved run metadata
+2026-01-09 16:06:11,208 | INFO | [SAVED] CSV at cascade_model\results\failure_detection\detection_results.csv
+2026-01-09 16:06:11,209 | INFO | [SAVED] Summary JSON at cascade_model\summary\detection_summary.json
+2026-01-09 16:06:11,209 | INFO | [SAVED] Severity joblib at cascade_model\artifacts\severity_matrix.joblib
+2026-01-09 16:06:11,209 | INFO | [SAVED] Diagnostics at cascade_model\diagnostics\severity\severity_diag_20260109T103611Z.json
+2026-01-09 16:07:36,723 | INFO | Starting severity-based failure detection
+2026-01-09 16:07:37,551 | INFO | Saved run metadata
+2026-01-09 16:07:37,551 | INFO | [SAVED] CSV at cascade_model\results\failure_detection\detection_results.csv
+2026-01-09 16:07:37,551 | INFO | [SAVED] Summary JSON at cascade_model\summary\detection_summary.json
+2026-01-09 16:07:37,551 | INFO | [SAVED] Severity joblib at cascade_model\artifacts\severity_matrix.joblib
+2026-01-09 16:07:37,551 | INFO | [SAVED] Diagnostics at cascade_model\diagnostics\severity\severity_diag.json

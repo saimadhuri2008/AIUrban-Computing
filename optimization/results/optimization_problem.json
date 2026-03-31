@@ -1,0 +1,130 @@
+{
+  "problem_scale": {
+    "num_wards": 302,
+    "num_sectors": 5,
+    "num_facilities": {
+      "hospitals": 127,
+      "schools": 638,
+      "emergency": 239,
+      "parks": 2081,
+      "government": 4
+    },
+    "num_variables": 1236099
+  },
+  "decision_variables": {
+    "x_hospital_ward": {
+      "shape": [
+        127,
+        302
+      ],
+      "type": "binary",
+      "description": "Hospital placement",
+      "count": 38354
+    },
+    "x_school_ward": {
+      "shape": [
+        638,
+        302
+      ],
+      "type": "binary",
+      "description": "School placement",
+      "count": 192676
+    },
+    "x_emergency_ward": {
+      "shape": [
+        239,
+        302
+      ],
+      "type": "binary",
+      "description": "Emergency service placement",
+      "count": 72178
+    },
+    "y_service_allocation": {
+      "shape": [
+        302,
+        3089
+      ],
+      "type": "continuous",
+      "description": "Service allocation fraction",
+      "count": 932878
+    },
+    "z_road_upgrade": {
+      "shape": [
+        11
+      ],
+      "type": "binary",
+      "description": "Road segment upgrade",
+      "count": 11
+    },
+    "z_metro_extend": {
+      "shape": [
+        2
+      ],
+      "type": "binary",
+      "description": "Metro extension",
+      "count": 2
+    }
+  },
+  "constraints": {
+    "sector_hospitals_specialty": {
+      "type": "minimum",
+      "value": 1,
+      "per": "sector",
+      "description": "\u22651 super-specialty hospital per sector"
+    },
+    "sector_hospitals_general": {
+      "type": "minimum",
+      "value": 3,
+      "per": "sector",
+      "description": "\u22653 general hospitals per sector"
+    },
+    "sector_schools_density": {
+      "type": "minimum_density",
+      "value": 0.5,
+      "per": "sector",
+      "description": "\u22650.5 schools per km\u00b2"
+    },
+    "emergency_response_time": {
+      "type": "upper_bound",
+      "value": 8,
+      "unit": "minutes",
+      "description": "Emergency services within 8 min"
+    },
+    "hospital_access_time": {
+      "type": "upper_bound",
+      "value": 30,
+      "unit": "minutes",
+      "description": "Hospital within 30 min"
+    },
+    "school_walking_distance": {
+      "type": "upper_bound",
+      "value": 2,
+      "unit": "km",
+      "description": "Primary school within 2 km"
+    },
+    "budget_total": {
+      "type": "upper_bound",
+      "value": 1000000000.0,
+      "unit": "INR",
+      "description": "Total cost \u2264 \u20b91.0B"
+    },
+    "demand_satisfaction": {
+      "type": "equality",
+      "value": 1.0,
+      "description": "All ward demand must be met"
+    },
+    "facility_capacity": {
+      "type": "upper_bound",
+      "description": "Facility capacity limits"
+    },
+    "land_use_compatibility": {
+      "type": "compatibility",
+      "description": "Facilities in valid zones only"
+    }
+  },
+  "constraint_violations_count": 2,
+  "constraint_violations": [
+    "Sector 1: School density 0.23/km\u00b2 (need \u22650.5)",
+    "Sector 2: School density 0.26/km\u00b2 (need \u22650.5)"
+  ]
+}

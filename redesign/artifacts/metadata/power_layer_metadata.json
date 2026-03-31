@@ -1,0 +1,14 @@
+{
+  "artifacts": [
+    "power_plants.geojson",
+    "power_lines.geojson"
+  ],
+  "method": "Rule-based placement using sector centroids with fixed spatial offsets",
+  "capacity_assumptions": {
+    "power_plant_mw": 1200,
+    "substation_mw": 300
+  },
+  "crs": "EPSG:4326",
+  "phase": "Phase 6",
+  "description": "Conceptual power generation and transmission layout for redesigned city"
+}

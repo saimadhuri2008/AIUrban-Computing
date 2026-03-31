@@ -1,0 +1,17 @@
+{
+  "ward_id": "ward_182",
+  "target": "congestion_index",
+  "model": "lgb",
+  "train_rows": 144,
+  "forecast_horizon_months": 60,
+  "backtest": {
+    "train_end": "2024-12",
+    "test_period": "2025-01 to 2025-12",
+    "metrics": {
+      "mae": 4.80725913539389e-07,
+      "rmse": 7.213253526112536e-07,
+      "mape": 0.00010492388940844027
+    }
+  },
+  "timestamp": "2025-12-28T11:22:41.208710"
+}

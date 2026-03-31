@@ -1,0 +1,21 @@
+{
+  "method": "Observed temporal failure sequence extraction",
+  "assumptions": [
+    "Single timestep lag (t-1 \u2192 t)",
+    "Non-zero propagation weight implies dependency",
+    "No causal inference"
+  ],
+  "parameters": {
+    "weight_threshold": 0.05,
+    "min_frequency": 2
+  },
+  "data_shape": {
+    "wards": 187,
+    "timesteps": 120,
+    "indicators": 6
+  },
+  "results": {
+    "total_sequences": 0,
+    "unique_chains": 0
+  }
+}

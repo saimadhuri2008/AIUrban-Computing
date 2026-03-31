@@ -1,0 +1,7 @@
+2026-01-09 16:23:47,647 | INFO | Loading detection CSV...
+2026-01-09 16:23:48,247 | INFO | Loaded sev baseline: W=187, T=120, M=6
+2026-01-09 16:23:48,248 | INFO | Running 200 simulations with 4 jobs ...
+2026-01-09 16:23:50,948 | INFO | [SAVED] severity probability matrix at cascade_model\artifacts\severity_prob_matrix_montecarlo.joblib
+2026-01-09 16:23:50,948 | INFO | [SAVED] collapse time series at cascade_model\results\montecarlo_cascade\collapse_prob_ts.csv
+2026-01-09 16:23:50,948 | INFO | [SAVED] top wards at cascade_model\results\montecarlo_cascade
+2026-01-09 16:23:50,948 | INFO | Done.

@@ -1,0 +1,15 @@
+{
+  "script": "compute_sector_future_stats.py",
+  "timestamp_utc": "2026-01-11T12:56:23.694583",
+  "input_files": {
+    "wards_sectors": "redesign/data/processed/wards_with_sector_fixed.geojson",
+    "forecasts": "cascade_model/results/failure_detection/detection_results.csv"
+  },
+  "output_files": [
+    "redesign\\artifacts\\sectors_forecast_2035\\sector_future_profile.csv",
+    "redesign\\artifacts\\sectors_forecast_2035\\sector_future_profile.json"
+  ],
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "phase": "Phase 6"
+}

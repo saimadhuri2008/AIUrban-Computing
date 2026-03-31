@@ -1,0 +1,17 @@
+{
+  "ward_id": "ward_89",
+  "target": "electricity_demand",
+  "model": "lgb",
+  "train_rows": 144,
+  "forecast_horizon_months": 60,
+  "backtest": {
+    "train_end": "2024-12",
+    "test_period": "2025-01 to 2025-12",
+    "metrics": {
+      "mae": 8.584743604256317e-05,
+      "rmse": 9.682406823645841e-05,
+      "mape": 0.0003287683065441106
+    }
+  },
+  "timestamp": "2025-12-28T11:29:11.523725"
+}

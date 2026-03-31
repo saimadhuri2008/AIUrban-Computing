@@ -1,0 +1,17 @@
+2026-01-11 18:25:15,197 | INFO | Loading wards with sector assignments
+2026-01-11 18:25:15,366 | INFO | Loading forecast data
+2026-01-11 18:25:15,408 | INFO | Filtering forecast data for year 2035
+2026-01-11 18:25:15,410 | INFO | Aggregating ward-level 2035 metrics
+2026-01-11 18:25:15,415 | INFO | Merging ward forecasts with sector assignments
+2026-01-11 18:25:15,417 | INFO | Aggregating sector-level metrics
+2026-01-11 18:25:15,420 | INFO | Saved sector future profile CSV: redesign\artifacts\sectors_forecast_2035\sector_future_profile.csv
+2026-01-11 18:25:15,421 | INFO | Saved sector future profile JSON: redesign\artifacts\sectors_forecast_2035\sector_future_profile.json
+2026-01-11 18:26:23,486 | INFO | Loading wards with sector assignments
+2026-01-11 18:26:23,647 | INFO | Loading forecast data
+2026-01-11 18:26:23,678 | INFO | Filtering forecast data for year 2035
+2026-01-11 18:26:23,680 | INFO | Aggregating ward-level 2035 metrics
+2026-01-11 18:26:23,685 | INFO | Merging ward forecasts with sector assignments
+2026-01-11 18:26:23,687 | INFO | Aggregating sector-level metrics
+2026-01-11 18:26:23,692 | INFO | Saved sector future profile CSV: redesign\artifacts\sectors_forecast_2035\sector_future_profile.csv
+2026-01-11 18:26:23,693 | INFO | Saved sector future profile JSON: redesign\artifacts\sectors_forecast_2035\sector_future_profile.json
+2026-01-11 18:26:23,707 | INFO | Sector-level stats computed successfully

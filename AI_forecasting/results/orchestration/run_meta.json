@@ -1,0 +1,15 @@
+{
+  "stage": "classical_forecasting",
+  "methods": {
+    "tier_1": "ETS/STL (city-level)",
+    "tier_2": "SARIMAX (ward-level)",
+    "tier_3": "heuristic sustainability alarms"
+  },
+  "thresholds": {
+    "electricity_demand": 0.95,
+    "water_demand": 0.95,
+    "congestion_index": 0.75,
+    "pm25": 60
+  },
+  "generated_at_utc": "2025-12-23T14:20:55.053593"
+}

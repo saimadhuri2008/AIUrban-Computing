@@ -1,0 +1,33 @@
+{
+  "baseline": {
+    "gini": 0.31127640794924827,
+    "max_min_gap": 5.137875632354577,
+    "low_income_avg": 0.9757579597066467,
+    "high_income_avg": 2.6543564301329563,
+    "income_gap": -1.6785984704263095,
+    "palma_ratio": 0.5451243820386463
+  },
+  "improved": {
+    "gini": 0.3151404831453035,
+    "max_min_gap": 5.137875632354577,
+    "low_income_avg": 0.8860684343859184,
+    "high_income_avg": 2.6543564301329563,
+    "income_gap": -1.7682879957470379,
+    "palma_ratio": 0.5264912916334815
+  },
+  "improvements": {
+    "gini_reduction_pct": -1.24136461915394,
+    "gap_reduction_pct": -5.343119685909767,
+    "time_saved_min": 0.08968952532072827
+  },
+  "facilities_added": {
+    "hospitals": 0,
+    "schools": 18,
+    "emergency": 0
+  },
+  "underserved": {
+    "count": 18,
+    "percentage": 9.090909090909092,
+    "population": 1216969
+  }
+}

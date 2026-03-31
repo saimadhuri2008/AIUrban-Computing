@@ -1,0 +1,7 @@
+{
+  "att": 0.0003907183044874474,
+  "treated_mean": 0.53678686386114,
+  "control_mean": 0.5363961455566526,
+  "n_treated": 60,
+  "n_control_matched": 60
+}

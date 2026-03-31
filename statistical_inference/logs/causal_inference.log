@@ -1,0 +1,20 @@
+2025-12-22 19:34:59,246 | INFO | ================================================================================
+2025-12-22 19:34:59,246 | INFO | CAUSAL INFERENCE STARTED
+2025-12-22 19:34:59,246 | INFO | Random seed fixed at 0 for reproducibility
+2025-12-22 19:34:59,490 | INFO | Loaded 198 wards
+2025-12-22 19:34:59,494 | INFO | Synthetic variables generated | seed=0 | n=198 | vars=['landuse_mix', 'distance_to_jobs', 'job_accessibility', 'distance_to_transit', 'car_dependence', 'commute_time', 'rainfall_shock', 'water_disruption', 'substation_failure', 'blackout', 'mobility_failure', 'sector_design', 'mean_commute', 'access_equity', 'population_growth', 'vehicle_growth', 'electricity_demand', 'water_demand', 'built_area_growth']
+2025-12-22 19:34:59,981 | INFO | Created 198 records
+2025-12-22 19:34:59,995 | INFO | Synthetic Phase 2D ward data saved (GeoJSON + CSV)
+2025-12-22 19:35:00,389 | INFO | Treatment split | treated=60 control=138
+2025-12-22 19:35:00,395 | INFO | PSM overlap | min_pscore=0.021 max_pscore=0.997
+2025-12-22 19:35:00,395 | INFO | PSM groups | treated=60 control=138
+2025-12-22 19:35:00,513 | INFO | PSM ATT = 0.0004
+2025-12-22 19:35:00,517 | INFO | IV first-stage F-stat = 99.43
+2025-12-22 19:35:00,533 | INFO | IV first-stage rows = 198
+2025-12-22 19:35:00,553 | WARNING | DiD uses synthetic panel with assumed parallel trends (documented assumption)
+2025-12-22 19:35:00,568 | INFO | DiD coef = -5.0492
+2025-12-22 19:35:00,717 | INFO | Spatial weights | type=Queen | n=198
+2025-12-22 19:35:00,717 | INFO | Spatial lag Wy coef = 0.2629
+2025-12-22 19:35:01,205 | INFO | Created 198 records
+2025-12-22 19:35:01,219 | INFO | PHASE 2D — CAUSAL INFERENCE COMPLETED
+2025-12-22 19:35:01,219 | INFO | ================================================================================

@@ -1,0 +1,21 @@
+                   Generalized Linear Model Regression Results                   
+=================================================================================
+Dep. Variable:     congestion_index_mean   No. Observations:                  198
+Model:                               GLM   Df Residuals:                      192
+Model Family:                   Gaussian   Df Model:                            5
+Link Function:                  Identity   Scale:                      1.7033e-06
+Method:                             IRLS   Log-Likelihood:                 1037.1
+Date:                   Mon, 22 Dec 2025   Deviance:                   0.00032703
+Time:                           08:09:33   Pearson chi2:                 0.000327
+No. Iterations:                        3   Pseudo R-squ. (CS):            0.02471
+Covariance Type:               nonrobust                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.5368      0.006     90.307      0.000       0.525       0.548
+income_index_mean       0.0023      0.004      0.517      0.605      -0.006       0.011
+it_job_density_mean  2.556e-05   2.18e-05      1.172      0.241   -1.72e-05    6.83e-05
+built_area_m2_sum   -3.034e-09   1.55e-09     -1.963      0.050   -6.06e-09   -5.18e-12
+population_est       6.396e-09   4.31e-09      1.483      0.138   -2.05e-09    1.48e-08
+aqi_mean            -2.368e-05   7.67e-05     -0.309      0.757      -0.000       0.000
+=======================================================================================

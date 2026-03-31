@@ -1,0 +1,9 @@
+{
+    "graph_structure": "directed",
+    "dependency_nature": "domain-informed",
+    "weights_meaning": "relative influence strength",
+    "weight_calibration": "not data-fitted",
+    "negative_weights": "mitigating effects allowed",
+    "temporal_scope": "static dependency structure",
+    "layout_type": "topological (non-spatial)"
+}

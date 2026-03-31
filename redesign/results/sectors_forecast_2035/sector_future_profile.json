@@ -1,0 +1,47 @@
+[
+    {
+        "sector": "Central",
+        "traffic_demand_2035": 37.40891596201657,
+        "water_demand_2035": 80736.61159751471,
+        "electricity_load_2035": 2546015.359963071,
+        "avg_pm25_2035": 159.77362757089713,
+        "population_2035": 2408407.1320748194,
+        "avg_failure_probability": 0.4933633265234089
+    },
+    {
+        "sector": "East",
+        "traffic_demand_2035": 8.788107102943405,
+        "water_demand_2035": 13827.26775735966,
+        "electricity_load_2035": 1495877.095018243,
+        "avg_pm25_2035": 150.1248701245008,
+        "population_2035": 471910.20966828533,
+        "avg_failure_probability": 0.4842139678031587
+    },
+    {
+        "sector": "North",
+        "traffic_demand_2035": 39.414727104706834,
+        "water_demand_2035": 66428.24683867885,
+        "electricity_load_2035": 4272277.3188189585,
+        "avg_pm25_2035": 157.38351287599386,
+        "population_2035": 2354110.715962209,
+        "avg_failure_probability": 0.48477435406782715
+    },
+    {
+        "sector": "South",
+        "traffic_demand_2035": 32.81820643845669,
+        "water_demand_2035": 52773.08470155093,
+        "electricity_load_2035": 4513059.857919493,
+        "avg_pm25_2035": 156.10839545352857,
+        "population_2035": 1797084.9128493352,
+        "avg_failure_probability": 0.4791047256695229
+    },
+    {
+        "sector": "West",
+        "traffic_demand_2035": 67.72044371403545,
+        "water_demand_2035": 124338.33681718519,
+        "electricity_load_2035": 5897485.701089906,
+        "avg_pm25_2035": 157.69099913779817,
+        "population_2035": 4063183.7936474443,
+        "avg_failure_probability": 0.49056905955637703
+    }
+]

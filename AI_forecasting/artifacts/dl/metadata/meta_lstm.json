@@ -1,0 +1,55 @@
+{
+  "created_at": "2025-12-28T14:05:44.760318",
+  "preprocessing_version": "phase3_dl_v1",
+  "tv_cols": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25",
+    "population",
+    "rainfall",
+    "t_idx_norm",
+    "month",
+    "month_sin",
+    "month_cos",
+    "is_monsoon"
+  ],
+  "static_cols": [],
+  "target_cols": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "id_col": "ward_id",
+  "date_col": "date",
+  "time_splits": {
+    "train_end": "2024-12-01",
+    "validation_period": "2025-01 to 2025-12",
+    "test_period": "future (model-specific forecasting)"
+  },
+  "feature_inventory": {
+    "base_targets": [
+      "electricity_demand",
+      "water_demand",
+      "congestion_index",
+      "pm25",
+      "population",
+      "rainfall"
+    ],
+    "seasonal_features": [
+      "month",
+      "month_sin",
+      "month_cos",
+      "is_monsoon"
+    ],
+    "trend_features": [
+      "t_idx_norm"
+    ],
+    "derived_features": []
+  },
+  "missing_data_policy": {
+    "initial_check": "Warn if missing ratio > 0.2",
+    "imputation": "Forward-fill then backward-fill per ward"
+  }
+}

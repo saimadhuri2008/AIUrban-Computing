@@ -1,0 +1,335 @@
+{
+  "nodes": {
+    "population": {
+      "index": 0,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 10642.559824563503,
+        "q10": 24168.860712257774,
+        "median": 45143.71641056439,
+        "mean": 46319.2186642784,
+        "q90": 69124.32,
+        "max": 116622.04766594703,
+        "std": 17585.851177315988
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    },
+    "water_demand": {
+      "index": 1,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 224.17343554573338,
+        "q10": 384.2949114387387,
+        "median": 475.7991964171325,
+        "mean": 619.4958929187825,
+        "q90": 1171.3337235485046,
+        "max": 1919.6414958636933,
+        "std": 316.03527893305136
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    },
+    "electricity_demand": {
+      "index": 2,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 208.75757114264266,
+        "q10": 1214.753209953613,
+        "median": 37079.91161101304,
+        "mean": 28673.33393035741,
+        "q90": 55056.64687560059,
+        "max": 212497.1044452033,
+        "std": 25204.16576902425
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    },
+    "congestion_index": {
+      "index": 3,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 0.3482044644622568,
+        "q10": 0.4045474105326523,
+        "median": 0.4609641449493014,
+        "mean": 0.4639848277765003,
+        "q90": 0.5269656299806152,
+        "max": 0.6579607997556088,
+        "std": 0.04720398489711444
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    },
+    "pm25": {
+      "index": 4,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 28.2984025713127,
+        "q10": 49.64567361163928,
+        "median": 68.3498367013573,
+        "mean": 68.60266533283534,
+        "q90": 87.7084284837153,
+        "max": 125.38874745476599,
+        "std": 14.6834889782178
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    },
+    "rainfall": {
+      "index": 5,
+      "threshold_info": {},
+      "stats": {
+        "count": 26928,
+        "min": 6.0,
+        "q10": 8.16,
+        "median": 88.30000000000001,
+        "mean": 105.06041666666667,
+        "q90": 218.00000000000003,
+        "max": 255.3,
+        "std": 85.8660298960198
+      },
+      "exceedance": {
+        "n": 26927
+      }
+    }
+  },
+  "edges_count": 9,
+  "prop_mat_shape": [
+    6,
+    6
+  ],
+  "shock_simulations": {
+    "population": {
+      "history": [
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.175,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.034999999999999996,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0525,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.042,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.024499999999999997,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0049,
+          "water_demand": 0.0,
+          "electricity_demand": 0.007349999999999999,
+          "congestion_index": 0.0294,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    },
+    "water_demand": {
+      "history": [
+        {
+          "population": 0.225,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": -0.15
+        },
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.1575,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0315,
+          "water_demand": 0.0,
+          "electricity_demand": 0.04725,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0378,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.02205,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    },
+    "electricity_demand": {
+      "history": [
+        {
+          "population": 0.2,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.13999999999999999,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.027999999999999997,
+          "water_demand": 0.0,
+          "electricity_demand": 0.041999999999999996,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0336,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.019599999999999996,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    },
+    "congestion_index": {
+      "history": [
+        {
+          "population": 0.05,
+          "water_demand": 0.0,
+          "electricity_demand": 0.075,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.06,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.034999999999999996,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.006999999999999999,
+          "water_demand": 0.0,
+          "electricity_demand": 0.010499999999999999,
+          "congestion_index": 0.041999999999999996,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0168,
+          "water_demand": 0.0,
+          "electricity_demand": 0.012599999999999998,
+          "congestion_index": 0.004899999999999999,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    },
+    "pm25": {
+      "history": [
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.1,
+          "congestion_index": 0.15,
+          "pm25": 0.0,
+          "rainfall": -0.175
+        },
+        {
+          "population": 0.11000000000000001,
+          "water_demand": 0.0,
+          "electricity_demand": 0.045,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.036,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.077,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0154,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0231,
+          "congestion_index": 0.025199999999999997,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    },
+    "rainfall": {
+      "history": [
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        },
+        {
+          "population": 0.0,
+          "water_demand": 0.0,
+          "electricity_demand": 0.0,
+          "congestion_index": 0.0,
+          "pm25": 0.0,
+          "rainfall": 0.0
+        }
+      ],
+      "crossing": {}
+    }
+  }
+}

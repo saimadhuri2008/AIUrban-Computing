@@ -1,0 +1,41 @@
+2026-01-09 16:26:44,220 | INFO | ============================================================
+2026-01-09 16:26:44,220 | INFO | FAILURE CHAIN EXTRACTION
+2026-01-09 16:26:44,221 | INFO | ============================================================
+2026-01-09 16:26:55,782 | INFO | ============================================================
+2026-01-09 16:26:55,782 | INFO | FAILURE CHAIN EXTRACTION
+2026-01-09 16:26:55,782 | INFO | ============================================================
+2026-01-09 16:26:55,816 | INFO | Functional state shape: (187, 120, 6)
+2026-01-09 16:26:55,816 | INFO | Indicators: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-09 16:26:55,820 | INFO | Extracting failure sequences (weight_threshold=0.05)
+2026-01-09 16:26:55,820 | INFO | Data shape: 187 wards × 120 timesteps × 6 indicators
+2026-01-09 16:26:55,845 | INFO | Total new failures observed: 404
+2026-01-09 16:26:55,846 | INFO | Total failure sequences extracted: 0
+2026-01-09 16:26:55,846 | WARNING | No failure sequences detected.
+2026-01-09 16:26:55,846 | WARNING | Possible reasons:
+2026-01-09 16:26:55,846 | WARNING | - Weak or absent cascades
+2026-01-09 16:26:55,846 | WARNING | - weight_threshold too high
+2026-01-09 16:26:55,846 | WARNING | - Sparse propagation matrix
+2026-01-09 16:26:55,852 | WARNING | No aggregated chains passed frequency threshold.
+2026-01-09 16:26:55,853 | INFO | ============================================================
+2026-01-09 16:26:55,853 | INFO | EXTRACTION COMPLETE
+2026-01-09 16:26:55,853 | INFO | ============================================================
+2026-01-09 16:27:58,187 | INFO | ============================================================
+2026-01-09 16:27:58,188 | INFO | FAILURE CHAIN EXTRACTION
+2026-01-09 16:27:58,188 | INFO | ============================================================
+2026-01-09 16:27:58,223 | INFO | Functional state shape: (187, 120, 6)
+2026-01-09 16:27:58,223 | INFO | Indicators: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2026-01-09 16:27:58,223 | INFO | Extracting failure sequences (weight_threshold=0.05)
+2026-01-09 16:27:58,223 | INFO | Data shape: 187 wards × 120 timesteps × 6 indicators
+2026-01-09 16:27:58,250 | INFO | Total new failures observed: 404
+2026-01-09 16:27:58,250 | INFO | Total failure sequences extracted: 0
+2026-01-09 16:27:58,250 | WARNING | No failure sequences detected.
+2026-01-09 16:27:58,250 | WARNING | Possible reasons:
+2026-01-09 16:27:58,251 | WARNING | - Weak or absent cascades
+2026-01-09 16:27:58,251 | WARNING | - weight_threshold too high
+2026-01-09 16:27:58,251 | WARNING | - Sparse propagation matrix
+2026-01-09 16:27:58,254 | INFO | Saved raw sequences at cascade_model\results\failure_chains\raw_failure_sequences.csv
+2026-01-09 16:27:58,254 | WARNING | No aggregated chains passed frequency threshold.
+2026-01-09 16:27:58,254 | INFO | Saved metadata at cascade_model\summary\failure_chain_meta.json
+2026-01-09 16:27:58,255 | INFO | ============================================================
+2026-01-09 16:27:58,255 | INFO | EXTRACTION COMPLETE
+2026-01-09 16:27:58,255 | INFO | ============================================================

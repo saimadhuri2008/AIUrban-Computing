@@ -1,0 +1,13 @@
+2025-12-29 00:22:43,532 | INFO | 
+==== Processing variable: population  strategy: prior_based ====
+2025-12-29 00:22:43,532 | INFO | [PRIOR] Using prior-based forecasting for population
+2025-12-29 00:22:44,188 | INFO | [SAVE] population forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251228_185243\population_forecast_2026_2035.csv
+2025-12-29 00:22:44,732 | INFO | 
+==== Processing variable: rainfall  strategy: prior_based ====
+2025-12-29 00:22:44,733 | INFO | [PRIOR] Using prior-based forecasting for rainfall
+2025-12-29 00:22:45,661 | INFO | [SAVE] rainfall forecasts: AI_forecasting\results\advanced\ensemble_bengaluru_forecasting\run_20251228_185243\rainfall_forecast_2026_2035.csv
+2025-12-29 00:22:46,242 | INFO | 
+==== Processing variable: electricity_demand  strategy: ensemble ====
+2025-12-29 00:22:46,243 | INFO | [DATA PREP] Building datasets for electricity_demand
+2025-12-29 00:22:46,290 | INFO | [FEATURES] Engineering features for: ['population', 'rainfall', 'electricity_demand', 'water_demand', 'congestion_index', 'pm25']
+2025-12-29 00:22:48,468 | INFO | [DATA] Train: 24684, Val: 13464, Wards: 187

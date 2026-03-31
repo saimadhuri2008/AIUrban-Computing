@@ -1,0 +1,19 @@
+{
+  "method": "SARIMAX (auto_arima) with ETS fallback",
+  "targets": [
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "exogenous_variables": [
+    "rainfall",
+    "temperature",
+    "job_density"
+  ],
+  "train_end": "2024-12-01",
+  "forecast_horizon_months": 12,
+  "test_length_months": 12,
+  "input_data": "AI_forecasting\\data\\input\\timeseries\\all_wards_monthly.parquet",
+  "generated_at_utc": "2026-01-13T13:34:47.216838"
+}

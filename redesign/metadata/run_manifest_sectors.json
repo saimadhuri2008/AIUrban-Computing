@@ -1,0 +1,9 @@
+{
+  "script": "kml_to_bbmp_5sectors.py",
+  "timestamp_utc": "2026-01-11T12:29:14.118216",
+  "input_kml": "redesign\\data\\raw\\bengaluru-5sectors.kml",
+  "input_kml_sha256": "e6805a12d137f1d16b3b0556ed5fcba70f57319205b03e65fc0023704198f5ab",
+  "output_geojson": "redesign\\data\\interim\\bbmp_5sectors.geojson",
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0"
+}

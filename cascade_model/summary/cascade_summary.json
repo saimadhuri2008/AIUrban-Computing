@@ -1,0 +1,6 @@
+{
+  "alpha": 0.08,
+  "stress_decay": 0.02,
+  "final_fraction_failed": 0.3778966131907308,
+  "timesteps": 120
+}

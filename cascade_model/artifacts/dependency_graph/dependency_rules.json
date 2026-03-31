@@ -1,0 +1,26 @@
+{
+    "population": {
+        "electricity_demand": 0.8,
+        "water_demand": 0.9,
+        "congestion_index": 0.7
+    },
+    "rainfall": {
+        "water_demand": -0.6,
+        "pm25": -0.7
+    },
+    "electricity_demand": {
+        "pm25": 0.4,
+        "congestion_index": 0.3
+    },
+    "water_demand": {
+        "congestion_index": 0.2,
+        "population": -0.25
+    },
+    "congestion_index": {
+        "pm25": 0.6,
+        "electricity_demand": 0.2
+    },
+    "pm25": {
+        "population": -0.2
+    }
+}

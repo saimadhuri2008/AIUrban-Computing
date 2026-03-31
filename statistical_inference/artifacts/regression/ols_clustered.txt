@@ -1,0 +1,31 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     congestion_index_mean   R-squared:                       0.025
+Model:                               OLS   Adj. R-squared:                 -0.001
+Method:                    Least Squares   F-statistic:                     1.881
+Date:                   Mon, 22 Dec 2025   Prob (F-statistic):             0.0992
+Time:                           22:18:52   Log-Likelihood:                 1037.1
+No. Observations:                    198   AIC:                            -2062.
+Df Residuals:                        192   BIC:                            -2042.
+Df Model:                              5                                         
+Covariance Type:                 cluster                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.5368      0.003    203.004      0.000       0.532       0.542
+population_est       6.396e-09   2.45e-09      2.614      0.010    1.57e-09    1.12e-08
+built_area_m2_sum   -3.034e-09   1.35e-09     -2.239      0.026   -5.71e-09   -3.62e-10
+income_index_mean       0.0023      0.003      0.897      0.371      -0.003       0.007
+it_job_density_mean  2.556e-05   1.65e-05      1.553      0.122    -6.9e-06     5.8e-05
+aqi_mean            -2.368e-05   3.22e-05     -0.735      0.463   -8.72e-05    3.99e-05
+==============================================================================
+Omnibus:                       86.485   Durbin-Watson:                   2.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3450.044
+Skew:                           0.845   Prob(JB):                         0.00
+Kurtosis:                      23.380   Cond. No.                     9.22e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 9.22e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

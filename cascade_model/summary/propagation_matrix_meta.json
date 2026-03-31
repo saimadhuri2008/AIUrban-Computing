@@ -1,0 +1,12 @@
+{
+  "matrix_shape": [
+    6,
+    6
+  ],
+  "normalization": "column_l1_norm (sum abs = 1)",
+  "graph_source": "cascade_model\\artifacts\\dependency_graph\\dependency_rules.json",
+  "ordering": "node_index_map.json",
+  "spectral_radius": 0.8662773486921187,
+  "interpretation": "A_norm[i,j] represents fraction of stress from node j transmitted to node i under full functionality.",
+  "note": "This is a BASE propagation matrix. State-dependent attenuation is applied during cascade simulation."
+}

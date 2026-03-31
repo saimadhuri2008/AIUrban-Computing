@@ -1,0 +1,16 @@
+{
+  "artifact": "consumption_map.geojson",
+  "method": "Rule-based sector-wise assignment",
+  "sector_consumption_units": {
+    "West": 100,
+    "Central": 50,
+    "South": 40,
+    "East": 40,
+    "Other": 10
+  },
+  "units": "relative consumption units",
+  "crs": "EPSG:4326",
+  "num_features": 198,
+  "phase": "Phase 6",
+  "description": "Sector-level consumption intensity map for redesigned city"
+}

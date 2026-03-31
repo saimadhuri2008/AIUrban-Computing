@@ -1,0 +1,21 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:      total_outflow_sum   No. Observations:                  198
+Model:                            GLM   Df Residuals:                      192
+Model Family:        NegativeBinomial   Df Model:                            5
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1507.8
+Date:                Mon, 22 Dec 2025   Deviance:                       18.926
+Time:                        08:09:33   Pearson chi2:                     16.4
+No. Iterations:                     9   Pseudo R-squ. (CS):             0.3809
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               7.2150      4.559      1.582      0.114      -1.721      16.151
+income_index_mean       1.8147      3.356      0.541      0.589      -4.764       8.393
+it_job_density_mean    -0.0062      0.017     -0.373      0.709      -0.039       0.027
+built_area_m2_sum    8.253e-07   1.18e-06      0.697      0.486    -1.5e-06    3.15e-06
+population_est       1.406e-05    3.3e-06      4.253      0.000    7.58e-06    2.05e-05
+aqi_mean               -0.0139      0.059     -0.236      0.813      -0.129       0.101
+=======================================================================================

@@ -1,0 +1,8 @@
+{
+  "congestion_index": 0,
+  "electricity_demand": 1,
+  "pm25": 2,
+  "population": 3,
+  "rainfall": 4,
+  "water_demand": 5
+}

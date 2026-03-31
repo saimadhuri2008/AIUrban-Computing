@@ -1,0 +1,15 @@
+{
+  "artifacts": [
+    "bbmp_5sectors_named.geojson",
+    "bbmp_5sectors_union.geojson"
+  ],
+  "method": "Centroid distance + bearing-based heuristic",
+  "city_center": [
+    77.5946,
+    12.9716
+  ],
+  "crs": "EPSG:4326",
+  "num_input_features": 5,
+  "num_output_sectors": 5,
+  "description": "Semantic naming and canonical union of 5-sector city design"
+}

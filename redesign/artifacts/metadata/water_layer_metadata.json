@@ -1,0 +1,10 @@
+{
+  "artifact": "water_treatment.geojson",
+  "infrastructure_type": "Water Treatment Plants (WTP)",
+  "placement_method": "Sector centroid with fixed spatial offsets",
+  "capacity_assumption_mld": 250,
+  "crs": "EPSG:4326",
+  "num_facilities": 5,
+  "phase": "Phase 6",
+  "description": "Conceptual water treatment plant placement for redesigned city"
+}

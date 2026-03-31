@@ -1,0 +1,72 @@
+{
+  "total_wards": 187,
+  "high_risk_wards": 29,
+  "mean_city_risk": 0.5643645276292335,
+  "max_city_risk": 0.7030833333333334,
+  "top_chains": [
+    {
+      "chain": "congestion_index -> pm25 -> water_demand -> population -> electricity_demand -> rainfall",
+      "count": 46,
+      "freq": 0.2459893048128342,
+      "median_first_fail": 60
+    },
+    {
+      "chain": "congestion_index -> water_demand -> pm25 -> population -> electricity_demand -> rainfall",
+      "count": 26,
+      "freq": 0.1390374331550802,
+      "median_first_fail": 60
+    },
+    {
+      "chain": "congestion_index -> water_demand -> population -> electricity_demand -> rainfall -> pm25",
+      "count": 18,
+      "freq": 0.0962566844919786,
+      "median_first_fail": 56
+    },
+    {
+      "chain": "congestion_index -> water_demand -> population -> electricity_demand -> pm25 -> rainfall",
+      "count": 12,
+      "freq": 0.0641711229946524,
+      "median_first_fail": 50
+    },
+    {
+      "chain": "pm25 -> congestion_index -> water_demand -> population -> electricity_demand -> rainfall",
+      "count": 11,
+      "freq": 0.0588235294117647,
+      "median_first_fail": 54
+    },
+    {
+      "chain": "congestion_index -> water_demand",
+      "count": 7,
+      "freq": 0.0374331550802139,
+      "median_first_fail": 84
+    },
+    {
+      "chain": "congestion_index -> pm25 -> water_demand -> electricity_demand -> population -> rainfall",
+      "count": 6,
+      "freq": 0.0320855614973262,
+      "median_first_fail": 61
+    },
+    {
+      "chain": "congestion_index -> pm25 -> water_demand -> population -> electricity_demand",
+      "count": 6,
+      "freq": 0.0320855614973262,
+      "median_first_fail": 72
+    },
+    {
+      "chain": "pm25 -> congestion_index -> water_demand -> electricity_demand -> population -> rainfall",
+      "count": 5,
+      "freq": 0.0267379679144385,
+      "median_first_fail": 33
+    },
+    {
+      "chain": "congestion_index -> pm25 -> water_demand",
+      "count": 5,
+      "freq": 0.0267379679144385,
+      "median_first_fail": 84
+    }
+  ],
+  "cluster_distribution": {
+    "High Risk - Water Dominant": 187
+  },
+  "generated_at": "2025-12-07T00:48:19.585796"
+}

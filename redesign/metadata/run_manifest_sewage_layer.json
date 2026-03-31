@@ -1,0 +1,10 @@
+{
+  "script": "build_sewage_layer.py",
+  "timestamp_utc": "2026-01-11T14:44:31.290980",
+  "input_file": "bbmp_5sectors_named.geojson",
+  "output_file": "redesign\\artifacts\\sewage_network.geojson",
+  "output_sha256": "5c1908817cedb73de939bf6fec167b2e2bb79b15ec2d9a6b1ec543ba5db2b201",
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "phase": "Phase 6"
+}

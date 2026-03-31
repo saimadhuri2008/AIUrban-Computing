@@ -1,0 +1,12 @@
+{
+  "script": "name_and_union_sectors.py",
+  "timestamp_utc": "2026-01-11T12:28:27.546711",
+  "input_sectors": "redesign\\data\\interim\\bbmp_5sectors.geojson",
+  "input_sectors_sha256": "0bb3d5004946e96b0266d47ec13c6071311c7b8f4b02d23fc15a2da08cf39473",
+  "outputs": [
+    "redesign\\data\\processed\\bbmp_5sectors_named.geojson",
+    "redesign\\artifacts\\bbmp_5sectors_union.geojson"
+  ],
+  "python_version": "3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0"
+}

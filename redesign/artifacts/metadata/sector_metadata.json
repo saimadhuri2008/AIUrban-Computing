@@ -1,0 +1,9 @@
+{
+  "artifact": "bbmp_5sectors.geojson",
+  "source": "redesign\\data\\raw\\bengaluru-5sectors.kml",
+  "geometry_type": "Polygon/MultiPolygon",
+  "crs": "EPSG:4326",
+  "num_features": 5,
+  "phase": "City Redesign",
+  "description": "Standardized official BBMP 5-sector spatial design"
+}

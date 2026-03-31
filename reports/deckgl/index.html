@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bengaluru Urban Vulnerability Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/deck.gl@^8.9.0/dist.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+            max-width: 320px;
+            max-height: calc(100vh - 20px);
+            overflow-y: auto;
+            z-index: 1;
+        }
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        h3 {
+            margin: 15px 0 8px 0;
+            font-size: 14px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        .toggle-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            text-align: left;
+            transition: all 0.2s;
+        }
+        .toggle-btn:hover {
+            border-color: #3498db;
+            background: #f8f9fa;
+        }
+        .toggle-btn.active {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+        .stat-box {
+            background: #f8f9fa;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+        .stat-label {
+            font-size: 11px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 4px;
+        }
+        .legend {
+            margin-top: 15px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 6px 0;
+            font-size: 12px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 12px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+        .chains-list {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 11px;
+        }
+        .chain-item {
+            padding: 6px;
+            margin: 4px 0;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div id="controls">
+        <h2>🏙️ Bengaluru Vulnerability Dashboard</h2>
+        
+        <div class="stat-box">
+            <div class="stat-label">Total Wards</div>
+            <div class="stat-value" id="total-wards">-</div>
+        </div>
+        
+        <div class="stat-box">
+            <div class="stat-label">High Risk Wards</div>
+            <div class="stat-value" id="high-risk-wards" style="color: #e74c3c;">-</div>
+        </div>
+        
+        <div class="stat-box">
+            <div class="stat-label">Mean City Risk</div>
+            <div class="stat-value" id="mean-risk">-</div>
+        </div>
+        
+        <h3>Layer Controls</h3>
+        <button class="toggle-btn active" id="toggle-hotspots" onclick="toggleLayer('hotspots')">
+            🗺️ Ward Failure Hotspots
+        </button>
+        <button class="toggle-btn active" id="toggle-chains" onclick="toggleLayer('chains')">
+            🔗 Failure Chains
+        </button>
+        <button class="toggle-btn active" id="toggle-arcs" onclick="toggleLayer('arcs')">
+            ⚡ Propagation Arcs
+        </button>
+        <button class="toggle-btn active" id="toggle-clusters" onclick="toggleLayer('clusters')">
+            📊 Risk Clusters
+        </button>
+        
+        <div class="legend">
+            <h3>Risk Scale</h3>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #D73027;"></div>
+                <span>Critical (70%+)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #FC8D59;"></div>
+                <span>High (50-70%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #FEE090;"></div>
+                <span>Moderate (30-50%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #FFFFCC;"></div>
+                <span>Low (&lt;30%)</span>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <h3>Arc Types</h3>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4A90E2;"></div>
+                <span>💧 Water</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #E74C3C;"></div>
+                <span>⚡ Power</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #F39C12;"></div>
+                <span>🚦 Traffic</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #95A5A6;"></div>
+                <span>🏭 Pollution</span>
+            </div>
+        </div>
+        
+        <h3>Top Failure Chains</h3>
+        <div class="chains-list" id="top-chains-list">
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script>
+        const {DeckGL, GeoJsonLayer, ArcLayer, TextLayer} = deck;
+        
+        let wardsData = null;
+        let arcsData = null;
+        let summaryData = null;
+        let layerVisibility = {
+            hotspots: true,
+            chains: true,
+            arcs: true,
+            clusters: true
+        };
+        
+        const deckgl = new DeckGL({
+            container: 'map',
+            mapStyle: 'mapbox://styles/mapbox/open-street-map-v9',
+            initialViewState: {
+                longitude: 77.5946,
+                latitude: 12.9716,
+                zoom: 10.5,
+                pitch: 45,
+                bearing: 0
+            },
+            controller: true,
+            getTooltip: ({object}) => {
+                if (!object) return null;
+                
+                if (object.properties) {
+                    const p = object.properties;
+                    const risk = (p.mean_fail_prob * 100).toFixed(1);
+                    const cluster = p.cluster_label || 'Unknown';
+                    const chain = p.dominant_chain || 'No major chain detected';
+                    
+                    return {
+                        html: `
+                            <div style="line-height: 1.6;">
+                                <strong>${p.ward_id}</strong><br/>
+                                <span style="color: ${risk >= 60 ? '#E74C3C' : risk >= 40 ? '#F39C12' : '#2ECC71'};">
+                                    ⚠️ Risk: ${risk}%
+                                </span><br/>
+                                📊 Cluster: ${cluster}<br/>
+                                🔗 Chain: ${chain}
+                            </div>
+                        `,
+                        style: {
+                            backgroundColor: 'rgba(0,0,0,0.9)',
+                            fontSize: '13px',
+                            color: 'white'
+                        }
+                    };
+                }
+                
+                if (object.source) {
+                    return {
+                        html: `
+                            <div>
+                                <strong>Propagation Arc</strong><br/>
+                                From: ${object.source_ward}<br/>
+                                To: ${object.target_ward}<br/>
+                                Type: ${object.type}<br/>
+                                Weight: ${(object.weight * 100).toFixed(1)}%
+                            </div>
+                        `
+                    };
+                }
+                
+                return null;
+            }
+        });
+        
+        function getRiskColor(risk) {
+            if (risk >= 0.7) return [215, 48, 39];
+            if (risk >= 0.5) return [252, 141, 89];
+            if (risk >= 0.3) return [254, 224, 144];
+            return [255, 255, 204];
+        }
+        
+        function getArcColor(type) {
+            const colors = {
+                'water': [74, 144, 226],
+                'power': [231, 76, 60],
+                'traffic': [243, 156, 18],
+                'pollution': [149, 165, 166]
+            };
+            return colors[type] || [100, 100, 100];
+        }
+        
+        function createLayers() {
+            const layers = [];
+            
+            if (layerVisibility.hotspots && wardsData) {
+                layers.push(new GeoJsonLayer({
+                    id: 'ward-hotspots',
+                    data: wardsData,
+                    filled: true,
+                    stroked: true,
+                    getFillColor: d => {
+                        const risk = d.properties.mean_fail_prob || 0;
+                        return getRiskColor(risk);
+                    },
+                    getLineColor: [80, 80, 80],
+                    getLineWidth: 1,
+                    lineWidthMinPixels: 1,
+                    pickable: true,
+                    opacity: 0.7
+                }));
+            }
+            
+            if (layerVisibility.chains && wardsData) {
+                const chainLabels = wardsData.features
+                    .filter(f => f.properties.dominant_chain && f.properties.dominant_chain.trim())
+                    .map(f => ({
+                        coordinates: f.properties.centroid_lon && f.properties.centroid_lat 
+                            ? [f.properties.centroid_lon, f.properties.centroid_lat]
+                            : [77.5946, 12.9716],
+                        text: f.properties.dominant_chain || ''
+                    }));
+                
+                layers.push(new TextLayer({
+                    id: 'chain-labels',
+                    data: chainLabels,
+                    getPosition: d => d.coordinates,
+                    getText: d => d.text,
+                    getSize: 11,
+                    getColor: [50, 50, 50],
+                    getTextAnchor: 'middle',
+                    getAlignmentBaseline: 'center',
+                    backgroundColor: [255, 255, 255, 200],
+                    fontFamily: 'Arial, sans-serif',
+                    fontWeight: 'bold',
+                    pickable: false,
+                    outlineWidth: 2,
+                    outlineColor: [255, 255, 255]
+                }));
+            }
+            
+            if (layerVisibility.arcs && arcsData) {
+                layers.push(new ArcLayer({
+                    id: 'propagation-arcs',
+                    data: arcsData,
+                    getSourcePosition: d => d.source,
+                    getTargetPosition: d => d.target,
+                    getSourceColor: d => getArcColor(d.type),
+                    getTargetColor: d => getArcColor(d.type),
+                    getWidth: d => Math.max(3, d.weight * 15),
+                    widthMinPixels: 3,
+                    widthMaxPixels: 12,
+                    pickable: true,
+                    opacity: 0.6
+                }));
+            }
+            
+            if (layerVisibility.clusters && wardsData) {
+                layers.push(new GeoJsonLayer({
+                    id: 'risk-clusters',
+                    data: wardsData,
+                    filled: false,
+                    stroked: true,
+                    getLineColor: d => {
+                        const cluster = d.properties.risk_cluster || 0;
+                        const clusterColors = [
+                            [231, 76, 60],
+                            [52, 152, 219],
+                            [46, 204, 113],
+                            [241, 196, 15],
+                            [155, 89, 182]
+                        ];
+                        return clusterColors[cluster % clusterColors.length];
+                    },
+                    getLineWidth: 3,
+                    lineWidthMinPixels: 2,
+                    pickable: true,
+                    opacity: 0.8
+                }));
+            }
+            
+            return layers;
+        }
+        
+        function updateLayers() {
+            deckgl.setProps({layers: createLayers()});
+        }
+        
+        function toggleLayer(layerName) {
+            layerVisibility[layerName] = !layerVisibility[layerName];
+            document.getElementById(`toggle-${layerName}`).classList.toggle('active');
+            updateLayers();
+        }
+        
+        async function loadData() {
+            try {
+                const [wards, arcs, summary] = await Promise.all([
+                    fetch('wards_with_metrics.geojson').then(r => r.json()),
+                    fetch('propagation_arcs.json').then(r => r.json()),
+                    fetch('summary_stats.json').then(r => r.json())
+                ]);
+                
+                wardsData = wards;
+                arcsData = arcs;
+                summaryData = summary;
+                
+                document.getElementById('total-wards').textContent = summary.total_wards || 0;
+                document.getElementById('high-risk-wards').textContent = summary.high_risk_wards || 0;
+                document.getElementById('mean-risk').textContent = 
+                    ((summary.mean_city_risk || 0) * 100).toFixed(1) + '%';
+                
+                const chainsHtml = (summary.top_chains || []).slice(0, 8).map((chain, i) => `
+                    <div class="chain-item">
+                        <strong>#${i + 1}</strong> ${chain.chain || chain}
+                    </div>
+                `).join('');
+                document.getElementById('top-chains-list').innerHTML = chainsHtml || '<p>No chains available</p>';
+                
+                updateLayers();
+                console.log('✅ Data loaded successfully');
+            } catch (error) {
+                console.error('❌ Error loading data:', error);
+                document.getElementById('controls').innerHTML += 
+                    '<div style="color: red; margin-top: 10px;">⚠️ Error loading data files</div>';
+            }
+        }
+        
+        loadData();
+        window.toggleLayer = toggleLayer;
+    </script>
+</body>
+</html>

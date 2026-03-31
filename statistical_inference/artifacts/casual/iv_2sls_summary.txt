@@ -1,0 +1,25 @@
+                            IV-2SLS Estimation Summary                           
+=================================================================================
+Dep. Variable:     congestion_index_mean   R-squared:                      0.0143
+Estimator:                       IV-2SLS   Adj. R-squared:                -0.0114
+No. Observations:                    198   F-statistic:                    6.8321
+Date:                   Mon, Dec 22 2025   P-value (F-stat)                0.2334
+Time:                           19:35:00   Distribution:                  chi2(5)
+Cov. Estimator:                   robust                                         
+                                                                                 
+                                 Parameter Estimates                                 
+=====================================================================================
+                   Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------
+Intercept             0.5392     0.0027     202.39     0.0000      0.5340      0.5445
+population_est     6.068e-09  2.804e-09     2.1641     0.0305   5.723e-10   1.156e-08
+built_area_m2_sum -2.969e-09  1.368e-09    -2.1702     0.0300   -5.65e-09  -2.875e-10
+income_index_mean     0.0010     0.0027     0.3506     0.7259     -0.0044      0.0063
+aqi_mean           -3.18e-05  3.437e-05    -0.9252     0.3549  -9.916e-05   3.556e-05
+car_dependence       -0.0005     0.0008    -0.6175     0.5369     -0.0020      0.0010
+=====================================================================================
+
+Endogenous: car_dependence
+Instruments: distance_to_transit
+Robust Covariance (Heteroskedastic)
+Debiased: False

@@ -1,0 +1,58 @@
+{
+  "n_rows": 22440,
+  "nodes": [
+    "population",
+    "rainfall",
+    "electricity_demand",
+    "water_demand",
+    "congestion_index",
+    "pm25"
+  ],
+  "csv": "cascade_model\\results\\failure_detection\\detection_results.csv",
+  "joblib": "cascade_model\\artifacts\\severity_matrix.joblib",
+  "timestamp": "20260109T103737Z",
+  "severity_stats": {
+    "population": {
+      "mean": 0.0,
+      "max": 0.0,
+      "pct_above_0": 0.0,
+      "pct_above_1": 0.0,
+      "pct_above_2": 0.0
+    },
+    "rainfall": {
+      "mean": 0.4190064915140535,
+      "max": 2.0,
+      "pct_above_0": 0.2692959001782531,
+      "pct_above_1": 0.2072192513368984,
+      "pct_above_2": 0.15797682709447416
+    },
+    "electricity_demand": {
+      "mean": 0.0,
+      "max": 0.0,
+      "pct_above_0": 0.0,
+      "pct_above_1": 0.0,
+      "pct_above_2": 0.0
+    },
+    "water_demand": {
+      "mean": 0.0,
+      "max": 0.0,
+      "pct_above_0": 0.0,
+      "pct_above_1": 0.0,
+      "pct_above_2": 0.0
+    },
+    "congestion_index": {
+      "mean": 0.20535497414844386,
+      "max": 0.7828814593918043,
+      "pct_above_0": 0.9768270944741533,
+      "pct_above_1": 0.0,
+      "pct_above_2": 0.0
+    },
+    "pm25": {
+      "mean": 1.1193000906960948,
+      "max": 2.0,
+      "pct_above_0": 0.6532085561497326,
+      "pct_above_1": 0.5581550802139037,
+      "pct_above_2": 0.470855614973262
+    }
+  }
+}

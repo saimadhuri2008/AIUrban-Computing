@@ -1,0 +1,29 @@
+2025-12-22 21:49:10,618 | INFO | ================================================================================
+2025-12-22 21:49:10,618 | INFO | PHASE 2E–2F (ROBUSTNESS + SUMMARY) STARTED
+2025-12-22 21:49:10,875 | INFO | Loaded wards GeoDataFrame: 198 rows, 60 columns
+2025-12-22 21:49:10,876 | INFO | Loaded Phase 2D artifacts: ['psm_att.json', 'psm_matched.csv']
+2025-12-22 21:49:10,910 | INFO | Running OLS with robustness checks
+2025-12-22 21:49:10,910 | INFO | OLS formula: congestion_index_mean ~ population_est + built_area_m2_sum + income_index_mean + it_job_density_mean + aqi_mean
+2025-12-22 21:49:10,918 | INFO | Influence diagnostics | Cook threshold=0.02020 | flagged=11
+2025-12-22 21:49:10,918 | INFO | Running missingness MCAR sensitivity (niter=60)
+2025-12-22 21:54:30,666 | WARNING | Skipping permutation ATT: 'high_it' treatment not found
+2025-12-22 22:01:13,729 | INFO | ================================================================================
+2025-12-22 22:01:13,729 | INFO | PHASE 2E–2F (ROBUSTNESS + SUMMARY) STARTED
+2025-12-22 22:01:13,934 | INFO | Loaded wards GeoDataFrame: 198 rows, 60 columns
+2025-12-22 22:01:13,934 | INFO | Loaded Phase 2D artifacts: ['psm_att.json', 'psm_matched.csv']
+2025-12-22 22:01:13,958 | INFO | Running OLS with robustness checks
+2025-12-22 22:01:13,958 | INFO | OLS formula: congestion_index_mean ~ population_est + built_area_m2_sum + income_index_mean + it_job_density_mean + aqi_mean
+2025-12-22 22:01:13,962 | INFO | Influence diagnostics | Cook threshold=0.02020 | flagged=11
+2025-12-22 22:01:13,963 | INFO | Running missingness MCAR sensitivity (niter=60)
+2025-12-22 22:07:03,505 | WARNING | Skipping permutation ATT: 'high_it' treatment not found
+2025-12-22 22:18:52,773 | INFO | ================================================================================
+2025-12-22 22:18:52,773 | INFO | PHASE 2E–2F (ROBUSTNESS + SUMMARY) STARTED
+2025-12-22 22:18:52,940 | INFO | Loaded wards GeoDataFrame: 198 rows, 60 columns
+2025-12-22 22:18:52,940 | INFO | Loaded Phase 2D artifacts: ['psm_att.json', 'psm_matched.csv']
+2025-12-22 22:18:52,965 | INFO | Running OLS with robustness checks
+2025-12-22 22:18:52,965 | INFO | OLS formula: congestion_index_mean ~ population_est + built_area_m2_sum + income_index_mean + it_job_density_mean + aqi_mean
+2025-12-22 22:18:52,969 | INFO | Influence diagnostics | Cook threshold=0.02020 | flagged=11
+2025-12-22 22:18:52,969 | INFO | Running missingness MCAR sensitivity (niter=60)
+2025-12-22 22:24:21,393 | WARNING | Skipping permutation ATT: 'high_it' treatment not found
+2025-12-22 22:24:23,125 | INFO | Created 198 records
+2025-12-22 22:24:23,125 | INFO | robustness check and results summary finished

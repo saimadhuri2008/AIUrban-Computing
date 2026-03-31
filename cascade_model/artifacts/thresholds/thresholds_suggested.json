@@ -1,0 +1,60 @@
+{
+  "node_thresholds": {
+    "population": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.017857142857142794,
+      "alert_pct_decrease": null,
+      "notes": {
+        "rel90": 0.0,
+        "rel95": 0.017857142857142794
+      }
+    },
+    "rainfall": {
+      "mode": "absolute",
+      "threshold": 239.20000000000002,
+      "notes": {
+        "p90": 218.00000000000003,
+        "p95": 239.20000000000002
+      }
+    },
+    "electricity_demand": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.21773216116900568,
+      "alert_pct_decrease": null,
+      "notes": {
+        "rel90": 0.17807352616895794,
+        "rel95": 0.21773216116900568
+      }
+    },
+    "water_demand": {
+      "mode": "relative_pct",
+      "alert_pct_increase": 0.32954807314755763,
+      "alert_pct_decrease": null,
+      "notes": {
+        "rel90": 0.26958668954555703,
+        "rel95": 0.32954807314755763
+      }
+    },
+    "congestion_index": {
+      "mode": "absolute",
+      "threshold": 0.5447662858900594,
+      "notes": {
+        "p90": 0.5269656299806152,
+        "p95": 0.5447662858900594
+      }
+    },
+    "pm25": {
+      "mode": "absolute",
+      "threshold": 92.48682419304326,
+      "notes": {
+        "p90": 87.7084284837153,
+        "p95": 92.48682419304326
+      }
+    }
+  },
+  "meta": {
+    "method": "percentile_based",
+    "abs_pct": 95,
+    "rel_pct": 95
+  }
+}
