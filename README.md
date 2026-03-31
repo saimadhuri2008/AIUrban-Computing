@@ -157,8 +157,8 @@ Interactive dashboard for real-time exploration of results:
 * Statistical summaries
 * Optimization insights
 
-🔗 **Live Dashboard:**
-👉 https://projectdashboard1.streamlit.app/
+🔗 **Dashboard:**
+👉 https://drive.google.com/drive/folders/1nBwCJwg93HqFtUaid3SSZrT2ugK0QDAo
 
 📸 **Dashboard Preview:**
 
